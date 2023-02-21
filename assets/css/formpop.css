@@ -1,0 +1,232 @@
+@import url('theme/colors.css');
+@import url('theme/theme.css');
+@import url('theme/buttons.css');
+body {
+    background-color: transparent!important;
+}
+
+body.popup-body {
+    width: 444px !important;
+    min-height: 400px !important;
+    border-radius: 24px!important;
+}
+
+/* @media all and (max-width:290px){
+	body.popup-body{
+        width: 280px !important;
+        min-height: 382px !important;
+    }
+}
+@media all and (max-width:245px){
+	body.popup-body{
+        width: 240px !important;
+        min-height: 382px !important; 
+    }
+} */
+
+.formPopUp-logo {
+    /* width: 45px; */
+    height: 32px;
+    margin-top: 16px;
+}
+
+.container__formPopUp {
+    margin-left: 10%;
+    width: 90%;
+    min-height: 382px;
+    background-color: #F7F7F7;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contauner__formPopUp-title {
+    width: 80%;
+    font: normal normal 600 18px/24px Inter;
+    letter-spacing: 0px;
+    color: #FF1983;
+    text-align: center;
+    margin: 0;
+    margin-top: 16px;
+    /* margin-top: 32px; */
+}
+
+.contauner__formPopUp-subtitle {
+    width: 80%;
+    font: normal normal 300 16px/20px Inter;
+    color: #86888C;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 5px;
+}
+
+.contauner__formPopUp-subtitle {
+    font: normal normal normal 16px/20px Inter;
+    letter-spacing: 0px;
+    color: #304250;
+}
+
+.contauner__formPopUp-text {
+    text-align: center;
+    font: normal normal 400 16px/20px Inter;
+    color: #86888C;
+    margin-bottom: 16px;
+}
+
+.contauner__formPopUp-message {
+    font: normal normal 600 18px/22px Inter;
+    color: #019DF4;
+    margin-bottom: 24px;
+}
+
+.form-box {
+    width: 80%;
+}
+
+.formPopUp-legend {
+    font: normal normal 400 10px/12px Inter;
+}
+
+#phone-input {
+    border-radius: 23px;
+    border: none;
+    box-shadow: 0px 3px 6px #9AA7B229;
+    color: #9AA7B2;
+}
+
+.form-check-input {
+    font: normal normal normal 12px/20px Inter;
+}
+
+.btn__submit-form {
+    margin-top: 24px;
+    border: none;
+    background: #258CE8;
+    color: white;
+    border-radius: 24px;
+    letter-spacing: 0.16px;
+    font: normal normal 600 16px/20px Inter;
+    padding: 15px 0px;
+    margin-bottom: 20px;
+}
+
+@media (max-width:500px) {
+    .contauner__formPopUp-title {
+        margin-top: 40px;
+        font: normal normal normal 18px/24px Inter;
+        text-align: center;
+    }
+    .contauner__formPopUp-subtitle {
+        font: normal normal 600 20px/24px Inter;
+        text-align: center;
+    }
+    body.popup-body {
+        width: 350px !important;
+        min-height: 382px !important;
+    }
+    .container__formPopUp {
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+}
+
+.fancybox-close-small {
+    display: none!important;
+}
+
+.fancybox-slide--iframe .fancybox-close-small, .fancybox-slide--image .fancybox-close-small {
+    display: none!important;
+}
+
+.form-group {
+    text-align: center;
+    /* margin: 15px auto; */
+}
+
+.input-formPopup::placeholder {
+    text-align: center;
+    font: normal normal 400 20px/28px Inter;
+}
+
+.btn-popup {
+    margin-top: 14px;
+    width: 230px;
+    padding: 12px;
+    border-radius: 4px;
+    font: normal normal 600 18px/21px Inter;
+    border: 2px solid var(--rosa-title)!important;
+    color: var(--blanco);
+    font: normal normal 600 18px/21px;
+    background-color: var(--rosa-title)!important;
+}
+
+.tp-terms-box2 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.tp-terms-box2 label {
+    font: normal normal normal 12px/14px Inter;
+    color: #86888C;
+}
+
+.tp-terms-box2 input {
+    accent-color: #258CE8
+}
+
+.input-box-shadow {
+    margin-right: 0px;
+}
+
+.digitos10 {
+    margin-top: 24px;
+    margin-left: 15%;
+    width: 60%;
+    font: normal normal 400 12px/16px Inter;
+    color: #616E78;
+}
+
+.input-formPopup {
+    margin-top: 10px;
+    width: 100%;
+    /* margin: 15px auto; */
+    height: 50px;
+    border: none;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-align: center;
+    box-shadow: inset 1px 1px 2px #00000029;
+    outline: none;
+}
+
+.input-formPopup::placeholder {
+    font: normal normal 400 20px/20px Inter;
+    letter-spacing: 0px;
+    color: #9AA7B2;
+    text-align: left;
+    padding: 10px;
+}
+
+.terms-check-06 {
+    margin-top: 0px;
+    accent-color: var(--azul-header);
+}
+
+.llamanosTu {
+    margin-top: 24px;
+    text-align: center;
+    font: normal normal normal 16px/24px Inter;
+    letter-spacing: 0px;
+    color: #304250;
+    margin-bottom: 20px;
+}
+
+.llamanosTu a {
+    font: normal normal bold 24px/24px Inter;
+    letter-spacing: 0px;
+    color: #FF1983;
+    
+}

@@ -1,0 +1,21 @@
+@import url('theme/theme.css');
+/* @import url('styles/header.css'); */
+@import url('styles/navbar.min.css');
+@import url('styles/footer.min.css');
+@import url('styles/404.min.css');
+@import url('styles/typ.min.css');
+
+.navbar__Container{
+    background-color: #00c5e7;
+}
+
+@media (max-width:767px) {
+    .navbar{
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+}
+
+/* @import url('styles/typ.css'); */
+

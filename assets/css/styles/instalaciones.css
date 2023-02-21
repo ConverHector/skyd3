@@ -1,0 +1,82 @@
+.instalaciones{
+    width: 85%;
+    margin: auto;
+    margin-top: 80px;
+    border: double 10px #2089FAC2;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0px 0px 10px #2089FAC2;
+    /* box-shadow: 0px 0px 31px #00000029; */
+
+
+}
+
+.instalaciones img{
+    height: 104px;
+    margin: 5px 0px;
+    margin-right: 30px;
+}
+
+.instalaciones p{
+    font: normal normal 600 30px/26px Inter;
+    letter-spacing: 0px;
+    color: #2089FA;
+    /* display: flex;
+    align-items: baseline; */
+}
+
+.instalaciones p span{
+    font: normal normal 600 50px/70px Inter;
+    margin-right: 15px;
+    margin-left: 15px;
+
+}
+
+.instalaciones p sup{
+    vertical-align: baseline;
+}
+
+@media (max-width:995px) {
+    .instalaciones{
+        width: 100%;
+    }
+
+    .instalaciones img{
+        height: 80px;
+        margin-right: 20px;
+    }
+
+    .instalaciones p{
+        font: normal normal 600 26px/22px Inter;
+    }
+
+    .instalaciones p span{
+        font: normal normal 600 40px/50px Inter;
+        margin-right: 5px;
+        margin-left: 5px;
+    
+    }
+}
+
+@media (max-width:767px) {
+    .instalaciones{
+        padding: 10px 5%;
+    }
+    .instalaciones img{
+        height: 95px;
+        /* margin-right: 20px; */
+    }
+
+    .instalaciones p {
+        font: normal normal 600 22px/25px Inter;
+    }
+
+    .instalaciones p span{
+        font: normal normal 600 30px/30px Inter;
+        margin-right: 0px;
+        margin-left: 0px;
+    
+    }
+}

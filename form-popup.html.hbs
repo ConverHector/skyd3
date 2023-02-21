@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html><head>
+    {{> masters/headTop }}
+        <meta name="viewport" content="initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+        <link rel="stylesheet" href="{{absoulteHrefBasePath}}./assets/css/formpop.css">
+        <meta name="htmlType" content="Popup">
+        
+    {{> masters/headBottom }}
+</head>
+
+    <body>
+    {{> masters/bodyTop }}
+        <style>
+            .fancybox-iframe{
+                min-height: 150%!important;
+            }
+        </style>
+        <script>
+            document.body.classList.add("popup-body");
+            
+        </script>
+
+        <div>
+            <div class="container__formPopUp">
+                <img src="{{absoulteHrefBasePath}}assets/img/logos/skybtcblue.png" alt="Totalplay" class="formPopUp-logo">
+                <p class="contauner__formPopUp-title">Contrata ahora</p>
+
+                <p class="contauner__formPopUp-subtitle">
+                    Déjanos tu número <br> y te llamamos en minutos
+                </p>
+                
+                <form id="formulario-1" action="" method="post" class="form-box m-auto" data-ic-form="formulario-1" novalidate="novalidate" onsubmit="return onFormSubmit(this, event);">
+                    <p class="digitos10">Teléfono a 10 dígitos</p>
+                    <div class="form-group my-2">
+                        <input type="text" data-ic-form-field="phone" class="input-box-shadow input-formPopup" id="form-phone" name="phone-input" aria-describedby="phoneHelp" placeholder="Ingresa tu teléfono" aria-label="">
+                        <div id="errmsg" class=""></div>
+                    </div>
+                    
+                    <div class="form-group text-center mb-2 mb-0">
+                        <div class="form-check pl-md-2 tp-terms-box2">
+                            <input data-ic-form-field="terms" id="terms-check-06" name="terms-check-06" type="checkbox" class="form-check-input tp-terms-box ">
+                            <label class="form-check-label" for="terms-check-06">He leído y acepto el aviso de privacidad</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group text-center mb-2">
+                        <button type="submit" class="btn-blue-obscuro btn-popup" data-ic-button-disabled="" style="cursor: progress;" id="formulario-1_0" onclick="return onFormSubmit(this, event);">Llámenme</button>
+                    </div>
+
+                    <div class="llamanosTu">
+                        <a onclick="return gtag_report_conversion('tel:{{parameterOrDefault inboundPublicNumber 01 800 000}}')" href="tel:{{parameterOrDefault inboundPublicNumber '01 800 000'}}" class="ic-phone-link tp-phone-link">
+                            {{parameterOrDefault inboundPublicNumber '01 800 000'}}
+                        </a>
+                    </div>
+                    
+                </form>
+            </div>
+
+            <div class="dhx-w100 py-2 px-4 text-center">
+            </div>
+
+        </div>
+    
+
+    {{> masters/bodyBottom }}
+</body></html>

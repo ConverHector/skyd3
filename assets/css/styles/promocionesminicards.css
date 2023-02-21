@@ -1,0 +1,85 @@
+.promocionescards{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.promocionescards .container__promocion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(50% - 10px);
+}
+
+.promocionescards .container__promocion img{
+    width: 100%;
+}
+
+.promocionescards .container__promocion .btn__pink{
+    font: normal normal 600 18px/18px Inter;
+    width: 240px;
+    padding: 10px;
+    border-radius: 24px;
+    margin-top: 28px;
+}
+.mobile__promoImg{
+    display: none;
+}
+
+@media (max-width:990px) {
+    .promocionescards .container__promocion{
+        width: calc(50% - 16px);
+    }
+
+    .desk__promoImg{
+        display: none;
+    }
+    .mobile__promoImg{
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width:767px) {
+    .promocionescards{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .promocionescards .container__promocion{
+        width: 90%;
+    }
+
+    .promocionescards .container__promocion:last-child{
+        margin-top: 25px;
+    }
+}
+
+.promo3__desk{
+    margin: auto;
+    margin-top: 20px;
+    
+}
+
+.promo3__mobile{
+    display: none;
+}
+
+@media (max-width:990px) {
+    .promo3__desk{
+        display: none;  
+    }
+
+    .promo3__mobile{
+        margin-top: 40px;
+        display: inline-block;
+    }
+
+}
+
+.center__imgs{
+    text-align: center;
+}
+
+

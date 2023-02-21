@@ -1,0 +1,298 @@
+.skyblue__blue{
+    margin-top: 80px;
+    border-radius: 16px;
+    display: flex;
+    padding: 64px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--azul-baner);
+    height: 441px;
+}
+
+.banner__left{
+    padding-right: 0px;
+    background-color: var(--naranja);
+}
+
+.skyblue__blue .img__banner{
+    position: relative;
+    width: 65%;
+    height: 460px;
+    z-index: 0;
+}
+
+.skyblue__blue .img__banner img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 520px;
+}
+
+.skyblue__blue .banner__img-left{
+    width: 50%;
+}
+
+.skyblue__blue .banner__img-left img{
+    right: 0;
+    left: auto;
+}
+
+
+.skyblue__blue .info{
+    width: 50%;
+}
+
+.skyblue__blue .info .logoskybtc{
+    height: 35px;
+}
+
+.skyblue__blue .info .title{
+    margin-top: 20px;
+    font: normal normal 600 32px/36px Inter;
+    color: var(--blanco);
+}
+
+.skyblue__blue .info .title span{
+    color: var(--aqua);
+}
+
+
+
+.skyblue__blue .info .subtitle{
+    margin-top: 20px;
+    font: normal normal 400 20px/32px Inter;
+    color: var(--blanco);
+}
+
+.skyblue__blue .info .subtitle span{
+    color: var(--aqua);
+}
+
+.skyblue__blue .info .btn__pink{
+    margin-top: 20px;
+    width: 240px;
+    padding: 11px;
+    font: normal normal 600 18px/21px Inter;
+}
+
+.banner__ligas .title{
+    font: normal normal 600 30px/34px Inter;
+    color: var(--gris-titulos);
+    text-align: center;
+    margin-top: 100px;  
+}
+.banner__ligas .title span{
+    color: var(--aqua);
+}
+.banner__ligas .subtitle{
+    text-align: center;
+    color: var(--gris-titulos);
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    margin-top: 8px;
+}
+.banner__ligas button{
+    margin-top: 35px;
+    margin-bottom: 40px;
+    width: 200px;
+    padding: 10px;
+    font: normal normal 600 18px/21px Inter;
+}
+.banner__ligas__imagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner__ligas__imagen img{
+    border-radius: 16px;
+    width: 100%;
+}
+#banner__margin{
+    margin-top: 80px;
+}
+
+@media (max-width:1200px) {
+    .skyblue__blue .img__banner img{
+        height: 490px;
+    }
+
+    .skyblue__blue .banner__img-left img{
+        height: 440px;
+    }
+
+    .skyblue__blue .info__left{
+        width: 47%;
+    }
+    .banner__ligas__imagen img{
+        width: 100%;
+    }
+}
+
+@media (max-width:1000px) {
+    .skyblue__blue .img__banner img{
+        height: 380px;
+        bottom: 10px;
+        left: -10px;
+    }
+
+    .skyblue__blue{
+        padding: 25px;
+    }
+
+    .skyblue__blue .info .logoskybtc{
+        height: 25px;
+    }
+
+    .skyblue__blue .info .title{
+        margin-top: 10px;
+        font: normal normal 600 24px/30px Inter;
+    }
+
+    .skyblue__blue .info .subtitle{
+        margin-top: 10px;
+        font: normal normal 400 18px/28px Inter;
+    }
+
+    .skyblue__blue .banner__img-left img{
+        left: auto;
+        height: 350px;
+    }
+
+    .banner__left{
+        padding-right: 0px;
+    }
+    .banner__ligas__imagen img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:720px) and (max-width:1200px){
+    .banner__ligas__imagen img{
+        width: 100%;
+    }
+}
+
+@media (max-width:740px) {
+    .skyblue__blue .img__banner img{
+        height: 320px;
+        /* width: 100%; */
+       position: relative;
+    }
+
+    .skyblue__blue{
+        flex-direction: column;
+        height: auto;
+        padding-bottom: 0px;
+    }
+
+    .skyblue__blue .img__banner{
+        width: 100%;
+        margin: auto;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .skyblue__blue .info{
+        width: 100%;
+    }
+
+    .skyblue__blue .info .logoskybtc{
+        height: 30px;
+        /* margin: auto; */
+    }
+
+    .skyblue__blue .info .title{
+        margin-top: 10px;
+        font: normal normal 600 24px/30px Inter;
+    }
+
+    .skyblue__blue .info .subtitle{
+        margin-top: 10px;
+        font: normal normal 400 20px/28px Inter;
+    }
+
+    .banner__left{
+        height: 700px;
+    }
+
+    .skyblue__blue .banner__img-left{
+        position: relative;
+    }
+
+    .skyblue__blue .banner__img-left img{
+        position: absolute;
+        bottom: -330px;
+    }
+
+    .banner__ligas .title{
+        text-align: left;
+        font: normal normal 600 24px/28px Inter;
+    }
+    .banner__ligas .subtitle{
+        text-align: left;
+        font-size: 1rem;
+    }
+    .banner__ligas__imagen{
+        align-items: flex-start;
+    }
+    .banner__ligas button{
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width:375px) {
+    .skyblue__blue .img__banner img{
+        height: 300px;
+        /* width: 100%; */
+       position: relative;
+    }
+
+    .banner__left{
+        height: 670px;
+    }
+
+    .skyblue__blue .banner__img-left{
+        position: relative;
+    }
+
+    .skyblue__blue .banner__img-left img{
+        position: absolute;
+        bottom: -330px;
+    }
+}
+
+@media (max-width:320px) {
+    .skyblue__blue{
+        padding: 18px;
+        padding-bottom: 0px;
+    }
+    .skyblue__blue .img__banner img{
+        height: 250px;
+        /* width: 100%; */
+       position: relative;
+    }
+
+    .banner__left{
+        height: 650px;
+        padding-right: 0;
+    }
+
+    .skyblue__blue .banner__img-left{
+        position: relative;
+    }
+
+    .skyblue__blue .banner__img-left img{
+        position: absolute;
+        bottom: -250px;
+        right: 0
+    }
+}
+
+.span__gris{
+    color: var(--gris-titulos)!important;   
+}
+
+.span__gris2{
+    color: var(--gris-titulos)!important;   
+    font-weight: 600;
+}

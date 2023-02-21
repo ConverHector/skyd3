@@ -1,0 +1,149 @@
+.container__white {
+    background-color: #ffff;
+    padding: 108px 0px;
+}
+
+.planesCard {
+    border-radius: 16px;
+    box-shadow: 0px 0px 15px #00000029;
+    min-height: 470px;
+}
+
+.planesCard .header {
+    /* border-bottom: 2px solid #FFBF30; */
+    min-height: 173px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header__gold {
+    background-image: url('../../img/bannersPrincipales/img-card-01.png');
+}
+
+.header__platinum {
+    background-image: url('../../img/bannersPrincipales/img-card-02.png');
+}
+
+.header__black {
+    background-image: url('../../img/bannersPrincipales/img-card-03.png');
+}
+
+.color__gold {
+    color: #FFBF30 !important;
+}
+
+.color__platinum {
+    color: #B5B9BD !important;
+}
+
+.color__black {
+    color: #304250 !important;
+    font-weight: bold;
+}
+
+.planesCard .header .title {
+    text-align: center;
+    font: normal normal 400 22px/26px Inter;
+
+}
+
+.planesCard .body {
+    margin-top: 26px;
+    padding: 0px 12px;
+}
+
+.planesCard .body .title {
+    font: normal normal 400 15px/20px Inter;
+    letter-spacing: 0px;
+    color: #161615;
+    text-align: center;
+}
+
+.planesCard .body .subtitle {
+    margin-top: 21px;
+    font: normal normal 400 12px/16px Inter;
+    letter-spacing: 0px;
+    color: #616E78;
+    text-align: center;
+}
+
+.btn__cardPlanesPromociones{
+    margin-top: -50px;
+    border-radius: 24px;
+    padding: 10px 0px;
+    font: normal normal 600 18px/21px Inter;
+}
+
+@media (max-width:990px) {
+    .planesCard{
+        width: 92%;
+        margin: auto;
+    } 
+}
+
+.planesCard .body .canales{
+    margin-top: 15px;
+    font: normal normal 400 15px/20px Inter;
+    letter-spacing: 0px;
+    color: #161615;
+    text-align: center;
+}
+
+
+.planesCard .body .description__paquete {
+    width: 65%;
+    margin: auto;
+    margin-top: 18px;
+    padding-bottom: 30px;
+}
+
+.planesCard .body .description {
+    display: flex;
+    align-items: center;
+    font: normal normal 400 14px/20px Inter;
+    letter-spacing: 0px;
+    color: #304250;
+    
+
+}
+
+.planesCard .body .description .text {
+    margin-right: 5px;
+}
+
+
+.planesCard .body .description .accepIcon {
+    display: inline-block;
+    width: 16px;
+    height: 11px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+}
+
+.icon__gold {
+    background-image: url('../../img/iconos/ico-check-yellow.svg');
+}
+
+.icon__platinum {
+    background-image: url('../../img/iconos/ico-check-platinum.svg');
+}
+
+.icon__black {
+    background-image: url('../../img/iconos/ico-check-black.svg');
+}
+
+.mb-text{
+    margin-top: 20px!important;
+}
+
+@media (max-width:1200px) {
+    .mb-text{
+        margin-top: 40px!important;
+    }
+}

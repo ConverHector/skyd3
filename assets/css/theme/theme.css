@@ -1,0 +1,398 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
+@import url('bootstrap.min.css');
+@import url('colors.css');
+@import url('animate.css');
+@import url('buttons.css');
+@import url('font.css');
+/* @import url('chatbot.css'); */
+@import url('../styles/modalCanales.min.css');
+
+/* @import url('../../christmas/snow.css'); */
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+body {
+    background-color: var(--gris-fondo);
+}
+
+button {
+    outline: none !important;
+    cursor: pointer;
+}
+
+.btn__rosa-redondo {
+    border: 2px solid var(--rosa-title);
+    border-radius: 24px;
+    color: var(--blanco);
+    background-color: var(--rosa-title);
+    transition: all 0.5s ease;
+}
+
+.btn__rosa-redondo:hover {
+    border: 2px solid var(--rosa-title);
+    color: var(--rosa-title);
+    background-color: var(--blanco);
+}
+
+.glider-prev {
+    left: 0% !important;
+}
+
+.glider-next {
+    right: 0% !important;
+}
+
+.glider-next, .glider-prev {
+    top: 45% !important;
+    transition: opacity .2s cubic-bezier(.17, .67, .83, .67), color .5s cubic-bezier(.17, .67, .83, .67);
+    font-size: 25px;
+    border-radius: 50% !important;
+    /* border: 1px solid #666;
+    height: 35px;
+    width: 35px;
+    text-align: center; */
+}
+
+.glider-next:focus, .glider-next:hover, .glider-prev:focus, .glider-prev:hover {
+
+    color: #666 !important;
+}
+
+/*----Legales footer-----*/
+.legales__footer {
+    text-align: center;
+    margin-bottom: 56px;
+    font:normal normal 300 14px/18px Inter;
+    color: #79828b;
+  }
+
+@media (min-width:1000px) {
+    .glider-next, .glider-prev {
+        display: none;
+    }
+}
+
+
+@media (min-width:1000px) {
+    .glider-next, .glider-prev {
+        display: none;
+    }
+}
+
+@media (max-width:600px) {
+
+    .glider-prev {
+        left: 5%;
+    }
+
+    .glider-next {
+        right: 5%;
+    }
+/*----Legales footer-----*/
+    .legales__footer {
+        text-align: start;
+      }
+}
+
+@media (min-width:600px) {
+    #prev-vtv, #next-vtv {
+        display: none;
+    }
+}
+
+
+.glider::-webkit-scrollbar-thumb {
+    background-color: transparent !important;
+}
+
+.animate {
+    opacity: 0;
+}
+
+.headings h1 {
+    font: normal normal 600 32px/36px Inter;
+    letter-spacing: 0px;
+    color: #0064B2;
+}
+
+.headings {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.headings h2 {
+    font: normal normal 400 24px/32px Inter;
+    letter-spacing: 0px;
+    color: #304250;
+}
+
+.headings h2 span {
+    font: normal normal 600 24px/32px Inter;
+    letter-spacing: 0px;
+    color: #304250;
+}
+
+
+@media (max-width:767px) {
+    .headings {
+        text-align: left;
+        margin-top: 65px;
+    }
+
+    .headings h1 {
+        font: normal normal 600 24px/30px Inter;
+        letter-spacing: 0px;
+        color: #0064B2;
+    }
+
+
+
+    .headings h2 {
+        font: normal normal 400 20px/28px Inter;
+        letter-spacing: 0px;
+        color: #304250;
+    }
+
+    .headings h2 span {
+        font: normal normal 600 20px/28px Inter;
+        letter-spacing: 0px;
+        color: #304250;
+    }
+}
+
+.terms__bolds{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+    font: normal normal 600 16px/24px Inter;
+    letter-spacing: 0px;
+    color: #B5B9BD;
+}
+
+@media (max-width:990px) {
+    .terms__bolds{
+        width: 90%;
+        margin-top: 20px;
+        font: normal normal 600 14px/24px Inter;
+    }
+}
+
+.ms{
+    margin-top: 80px!important;
+}
+
+.boldFont{
+    font-weight: 600!important;
+}
+
+.bgWhite{
+    margin-top: 100px;
+    background-color: #ffff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.centerItems{
+    width: 100%;
+    text-align: center;
+}
+
+.btn__futLigas{
+    margin-top: 100px;
+    width: 297px;
+    padding: 10px 0px;
+    font: normal normal 600 18px/21px Inter;
+    border-radius: 24px;
+}
+
+@media (max-width:767px) {
+    .btn__futLigas{
+        margin-top: 40px
+    }
+}
+
+.noaltura{
+    min-height: 100%!important;
+    background-color: red!important;
+}
+
+.logo__modal-canales{
+    height: 40px;
+}
+
+.banner__promo__gold {
+    border-radius: 8px;
+    /* background-image: url(../../img/secciones/banner-promo.webp); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 150px;
+    color: var(--blanco);
+    margin-top: 80px;
+}
+
+.banner__interno {
+    background-image: url("../../img/promociones/banner-promo-interno.webp");
+}
+
+.button__promo__gold{
+
+    display: flex;
+    justify-content: center;
+}
+
+.button__promo__gold button {
+    margin-top: 20px;
+    border-radius: 24px;
+    width: 240px;
+    font: normal normal 600 18px/21px Inter;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+@media (min-width: 768px) and (max-width:1023px) {
+    .banner__promo__gold {
+        /* background-image: url(../../img/secciones/banner-promo-tablet.webp); */
+    }
+    .banner__interno {
+        background-image: url("../../img/promociones/banner-promo-interno-tablet.webp");
+    }
+}
+
+@media (max-width:767px) {
+    .banner__promo__gold {
+        /* background-image: url(../../img/secciones/banner-promo-mobile.webp); */
+        min-height: 420px;
+    }
+    .banner__interno {
+        background-image: url("../../img/promociones/banner-promo-interno-mobile.webp");
+    }
+}
+
+.terms-conditions {
+    width: 95%;
+    margin: auto;
+    margin-top: 25px;
+    /* margin-bottom: 45px; */
+    font: normal normal 300 12px/18px InterL;
+    letter-spacing: 0px;
+    color: var(--azul-baner);
+    text-align: left;
+}
+.cards__subtitle{
+    font: normal normal 400 20px/22px Inter!important;
+    letter-spacing: 0px;
+    color: #707070;
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+    .terms-conditions {
+        font: normal normal 400 12px/20px Inter;
+    }
+
+    .paquetes .paquetesInternet__subtitle{
+        /* width: 95%; */
+    }
+}
+
+.ligasSky .container{
+    text-align: center;
+}
+
+.cards__titles{
+    text-align: center;
+    font: normal normal 400 40px/43px Inter!important;
+    letter-spacing: 0px;
+    background-image: linear-gradient(to right,rgb(255,158,0) 0%,rgb(255,0,0) 35%,rgb(181,0,125) 60%,rgb(33,66,156) 85%,rgb(0,113,255) 100%);
+display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+
+.cards__subtitle span{
+    color: #FF0B59!important;
+}
+
+.modalContact {
+    position: fixed;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.8);
+    left: 0;
+    top: 0;
+    width: 0px;
+    height: 0px;
+    opacity: 0;
+    transition: opacity 0.15s ease-out, width 0s linear 0.15s, height 0s linear 0.15s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    /* animation: fadeOutLeft 0.2s ease-in; */
+}
+
+.modalContact.visible {
+    width: 100%;
+    height: 100vh;
+    opacity: 1;
+    animation: fadeIn 0.5s ease-in;
+    /* transition: opacity 0.5s ease-out, transform 0.5s ease-in-out; */
+}
+
+.closeIcon__modal {
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #ffff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.closeIcon__modal .icon {
+    width: 50%;
+}
+
+@media (max-height:400px) {
+    .banner__form-modal{
+        overflow: auto;
+    }
+}
+
+.mt-5{
+    margin-top: 20px!important;
+}
+
+.container__img{
+    text-align: center;
+}
+
+.color__buenFin{
+    background-color: #e30613!important;
+}
+
+.color__buenFin img{
+    height:85px;
+}

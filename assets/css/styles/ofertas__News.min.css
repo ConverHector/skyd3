@@ -1,0 +1,78 @@
+.ofertas__news{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.oferta__section{
+    width: 48%;
+    border-radius: 8px;
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.oferta1{
+    background-image: url('../../img/ofertasPromociones/promo-sky-desktop-01.webp');
+}
+
+.oferta2{
+    background-image: url('../../img/ofertasPromociones/promo-sky-desktop-02.webp');
+}
+
+@media (max-width:1200px) {
+
+    .oferta__section{
+        background-position-x: 70%;
+    }
+}
+
+@media (max-width:990px) {
+
+   
+    .oferta__section{
+        height: 350px;
+        background-position-y: 20%;
+
+    }
+
+    .oferta1{
+        background-image: url('../../img/ofertasPromociones/promo-sky-01.webp');
+    }
+    
+    .oferta2{
+        background-image: url('../../img/ofertasPromociones/promo-sky-02.webp');
+    }
+}
+
+@media (max-width:767px) {
+
+    .ofertas__news{
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .oferta__section{
+        width: 90%;
+        margin-bottom: 30px;
+        background-position-y: 20%;
+
+    }
+
+    .ofertas__news{
+        /* justify-content: center; */
+        /* margin-top: 50px; */
+    }
+}
+
+@media (max-width:375px) {
+    .oferta__section{
+        width: 100%;
+        /* margin-bottom: 30px; */
+        background-position-x: 70%;
+
+    }
+}

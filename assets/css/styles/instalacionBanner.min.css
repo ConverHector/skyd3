@@ -1,0 +1,74 @@
+.instalacionBanner {
+    border-radius: 8px;
+    width: 614px;
+    margin: auto;
+    padding: 16px ;
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-around;
+
+    color: var(--azul-banner);
+    box-shadow: -3px 3px 6px #00000029;
+border: 1px solid #233775;
+    margin-top: 60px;
+    background-color: var(--blanco);
+}
+
+.instalaciones__blue{
+    background-color: var(--blue-bold);
+}
+
+.instalaciones__blue p{
+    color: var(--color-white)!important;
+    
+}
+
+.instalacionBanner img {
+    width: 56px
+}
+
+.instalacionBanner p {
+    /* margin-left: 16px; */
+    font: normal normal 300 32px/36px InterL;
+    color: var(--color-white);
+}
+
+.mobile__Instalaciones {
+    display: none;
+}
+
+
+
+
+@media (max-width: 767px) {
+    .desk__Instalaciones {
+        display: none;
+    }
+
+    .instalacionBanner {
+        padding: 10px 4%;
+        width: 85%
+    }
+
+    .instalacionBanner p {
+        font: normal normal 300 24px/27px InterL;
+        margin-left: 10%;
+    }
+
+    .mobile__Instalaciones {
+        display: block;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 400px) {
+    .instalacionBanner {
+        width: 95%
+    }
+
+    .instalacionBanner p {
+        font: normal normal 300 18px/18px InterL;
+    }
+}

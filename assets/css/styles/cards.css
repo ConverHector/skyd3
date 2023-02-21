@@ -1,0 +1,231 @@
+.card__Combos {
+  -webkit-box-shadow: 3px 3px 6px #616e7827;
+          box-shadow: 3px 3px 6px #616e7827;
+  width: 100%;
+  min-height: 480px;
+  border-radius: 16px;
+  background-color: var(--blanco);
+  margin-right: auto;
+  margin-bottom: 20px;
+  -webkit-transition: opacity 0.5s ease;
+  transition: opacity 0.5s ease;
+}
+
+.card__Combos .card__Combos-header {
+  border-radius: 16px 16px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 16px;
+}
+
+.card__Combos .card__Combos-header img {
+  height: 30px;
+}
+
+.card__Combos .card__Combos-body {
+  text-align: center;
+}
+
+.card__Combos .card__Combos-body .canales {
+  padding-top: 28px;
+  font: normal normal 600 20px/20px Inter;
+  color: var(--gris-titulos);
+}
+
+.card__Combos .card__Combos-body .canales-info {
+  margin-top: 4px;
+  font: normal normal 400 16px/20px Inter;
+  color: var(--gris-subtitulos);
+}
+
+.card__Combos .card__Combos-body .more-icon {
+  margin-top: 8px;
+  height: 17px;
+}
+
+.card__Combos .card__Combos-body .canales-description {
+  font: normal normal 600 20px/20px Inter;
+  color: var(--gris-titulos);
+  margin-top: 9px;
+}
+
+.card__Combos .card__Combos-body .icono-bluetelecom {
+  height: 32px;
+  margin-top: 8px;
+}
+
+.card__Combos .card__Combos-body .megas-info {
+  font: normal normal 600 16px/20px Inter;
+  color: var(--azul-megas);
+  margin-top: 8px;
+}
+
+.card__Combos .card__Combos-body .desde {
+  margin-top: 16px;
+  font: normal normal 400 14px/20px Inter;
+}
+
+.card__Combos .card__Combos-body .comparator-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: 20px auto 5px auto;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card__Combos .card__Combos-body .comparator-price .price {
+  margin-top: 6px;
+  width: 50%;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.card__Combos .card__Combos-body .comparator-price .price .price-megas {
+  font: normal normal 600 14px/20px Inter;
+  color: var(--azul-megas);
+}
+
+.card__Combos .card__Combos-body .comparator-price .price .price-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.card__Combos .card__Combos-body .comparator-price .price .price-content .price-cifra {
+  margin-top: 4px;
+  color: var(--gris-titulos);
+  font: normal normal 600 32px/20px Inter;
+}
+
+.card__Combos .card__Combos-body .comparator-price .price .price-content span {
+  padding-top: 5px !important;
+  color: var(--gris-titulos);
+  font: normal normal 600 16px/10px Inter;
+  margin-right: 2px;
+}
+
+.card__Combos .card__Combos-body .comparator-price .price .price-content .priceOriginal {
+  margin-top: 4px;
+  color: var(--gris-titulos);
+  font: normal normal 600 30px/20px Inter;
+}
+
+.card__Combos .card__Combos-body .comparator-price .price .price-content .NotPrice__oferta{
+  font: normal normal 600 13px/13px Inter;
+  vertical-align: 30%;
+  text-decoration: line-through;
+}
+
+
+.card__Combos .card__Combos-body .comparator-price .price:first-child {
+  border-right: 2px solid var(--azul-claro);
+}
+
+.card__Combos .card__Combos-body .btn-rosa-card {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 208px;
+  padding: 10px;
+  font: normal normal 600 18px/21px Inter;
+}
+
+@media (max-width: 720px) {
+  .card__Combos {
+    width: 90%;
+    margin: 10px auto;
+  }
+}
+
+.bg-orange {
+  background-color: var(--naranja);
+}
+
+.bg-blue {
+  background-color: var(--azul-titulos);
+}
+
+.bg-yellow {
+  background-color: var(--amarillo);
+}
+
+.bg-gris {
+  background-color: var(--bg-gris);
+}
+
+.bg-black {
+  background-color: var(--black);
+}
+
+.container__pricePromos{
+  display: flex;
+  align-items: center;
+}
+
+.container__pricePromos .notPrice{
+  font: normal normal 600 12px/12px Inter;
+  text-decoration: line-through;
+  margin-right: 8px;
+  margin-top: 13px;
+  
+}
+
+.container__pricePromos .priceOriginal{
+  font: normal normal 600 32px/32px Inter;
+  margin-top: 4px;
+    color: var(--gris-titulos);
+}
+.container__pricePromos .priceOriginal span{
+  padding-top: 5px !important;
+  color: var(--gris-titulos);
+  font: normal normal 600 16px/10px Inter;
+  margin-right: 1px;
+  vertical-align: 2px;
+}
+
+.text__mount{
+  padding-top: 5px !important;
+  color: var(--gris-titulos);
+  font: normal normal 600 16px/10px Inter;
+  margin-right: -50px;
+}
+
+.numberSup{
+  font: normal normal 600 11px/11px Inter;
+  vertical-align: 18px;
+}
+
+.legalPromos{
+  margin-top: 40px;
+  text-align: center;
+    margin-bottom: 56px;
+    font: normal normal 300 14px/18px Inter;
+    color: #79828b;
+}

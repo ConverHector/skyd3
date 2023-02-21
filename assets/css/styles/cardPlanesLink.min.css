@@ -1,0 +1,177 @@
+.planesLinks {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0px;
+    /* margin-bottom: 50px; */
+    margin-top: 60px;
+}
+
+.planesLinks .planesLinks__card {
+    overflow: hidden;
+    /* min-height: px; */
+    /* box-shadow: inset -3px -3px 6px #00000029; */
+    border-radius: 16px;
+    /* padding-bottom: 25px; */
+    width: 100%;
+    display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    /* flex-direction: column-reverse; */
+}
+
+.planesLinks .planesLinks__card.card-reverse{
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+
+
+.planesLinks__card .image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 280px;
+    width: 50%;
+
+}
+
+.planesLinks__card .image.link1 {
+    background-image: url('../../img/secciones/secciones1.png');
+}
+
+.planesLinks__card .image.link2 {
+    background-image: url('../../img/secciones/seccion2.png');
+}
+
+
+.planesLinks__card .description {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    min-height: 230px;
+    padding: 0px 2%;
+}
+
+.planesLinks__card .description img{
+    height: 70px;
+    width: fit-content;
+}
+
+.planesLinks__card .description .title {
+    font: normal normal 400 30px/33px Inter;
+    letter-spacing: 0px;
+    color: #1C3879;
+    margin-top: 24px;
+}
+
+.planesLinks__card .description .subtitle {
+    font: normal normal normal 20px/22px Inter;
+    letter-spacing: 0px;
+    color: #707070;
+    margin-top: 15px;
+    text-align: left;
+}
+
+.planesLinks__card .description .legend {
+    font: normal normal 600 20px/23px Inter;
+    letter-spacing: 0px;
+    color: #707070;
+    
+    width: 70%;
+    /* margin: auto; */
+    margin-top: 15px;
+    text-align: left;
+}
+
+.planesLinks__card .description button{
+    padding: 11px 0px;
+    font: normal normal bold 16px/16px Inter;
+    width: 144px;
+    margin-top: 30px;
+}
+
+.container__btn{
+    width: 100%;
+    text-align: left;
+}
+
+.mobile{
+    display: none;
+    margin-top: 20px;
+}
+
+.mobile button{
+    width: 174px;
+}
+
+@media (max-width:990px) {
+    .planesLinks .planesLinks__card{
+        width: 48%;
+    }
+
+    .planesLinks__card .description .title{
+        font: normal normal 400 22px/28px Inter;
+    }
+
+    .planesLinks__card .description .subtitle {
+        font: normal normal normal 18px/22px Inter;
+    }
+
+    .planesLinks__card .description .legend {
+        font: normal normal 600 18px/20px Inter;
+    }
+}
+
+@media (max-width:990px) {
+    .planesLinks .planesLinks__card{
+        width: 100%;
+        margin: auto;
+    }
+
+    .planesLinks .planesLinks__card:last-child{
+        margin-top: 30px;
+    }
+}
+
+@media (max-width:767px) {
+    .desk{
+        display: none;
+    }
+
+    .mobile{
+        display: inline-block;
+    }
+
+    
+    .planesLinks .planesLinks__card{
+        flex-direction: column-reverse;
+    }
+
+    .planesLinks .planesLinks__card.card-reverse{
+        flex-direction: column-reverse;
+    }
+
+    .planesLinks__card .image{
+        width: 100%;
+    }
+
+    .planesLinks__card .description{
+        min-height: auto;
+        /* align-items: center; */
+    }
+
+    .planesLinks__card .description .legend{
+        /* text-align: center; */
+    }
+
+    .container__btn{
+        text-align: center;
+    }
+}
+

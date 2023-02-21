@@ -1,0 +1,782 @@
+@import url("navbar.min.css");
+
+.banner {
+    min-height: 550px;
+}
+
+.banner__noCarousel {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.bannerPromos {
+    background-image: url("../../img/banners/mc-banner-promo-principal.png");
+    background-position: 50% 0%;
+    background-color: var(--blanco);
+    background-position-y: 50px;
+}
+
+.bannerPromos .info__banner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    min-height: 300px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.bannerPromos .info__banner .title__banner {
+    width: 40%;
+    margin-left: auto;
+    font: normal normal 600 32px/40px Inter;
+    color: var(--azul);
+}
+
+.bannerPromos .info__banner .subtitle__banner {
+    width: 40%;
+    margin-left: auto;
+    font: normal normal 500 28px/32px Inter;
+    color: var(--negroTexto);
+}
+
+.banner__carousel {
+    position: relative;
+    background-position: center;
+}
+
+.banner__carousel .banner__carousel-container {
+    min-height: 560px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner__carousel .banner__carousel-container .banner__titles {
+    display: flex;
+}
+
+.banner__carousel .banner__carousel-container .headers__info {
+    width: 374px;
+    /* margin-top: 70px; */
+}
+
+.banner__carousel .banner__carousel-container .headers__info h1 {
+    font: normal normal 600 40px/44px Inter;
+    letter-spacing: 0px;
+    background-image: linear-gradient(to right,rgb(255,158,0) 0%,rgb(255,0,0) 35%,rgb(181,0,125) 60%,rgb(33,66,156) 85%,rgb(0,113,255) 100%);
+    display: inline-block;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color: #2089FA; */
+}
+
+.banner__carousel .banner__carousel-container .headers__info h2 {
+    font: normal normal 500 32px/45px Inter;
+    letter-spacing: 0px;
+    color: #707070;
+    margin-top: 24px;
+}
+
+.banner__carousel .banner__carousel-container .headers__info h2.h2__small {
+    font: normal normal normal 24px/28px Inter;
+    margin-top: 16px;
+}
+.banner__carousel .banner__carousel-container .headers__info .price{
+    font: normal normal 600 64px/70px Inter;
+letter-spacing: 0px;
+color: #707070;
+margin-top: 16px;
+}
+
+.banner__carousel .banner__carousel-container .headers__info .price sup{
+    font: normal normal 600 23px/49px Inter;
+    vertical-align: 25px;
+}
+
+.banner__carousel .banner__carousel-container .headers__info .priceLegend{
+    font: normal normal 400 16px/16px Inter;
+letter-spacing: 0px;
+color: #707070;
+
+}
+
+.banner__carousel .banner__carousel-container .headers__info .btn__pink {
+    width: 176px;
+    /* padding: 10px 0px; */
+    font: normal normal 600 18px/20px Inter;
+    letter-spacing: 0px;
+    /* color: #FFFFFF; */
+    /* border-radius: 24px; */
+    margin-top: 30px;
+}
+
+.banner__carousel .banner__carousel-container .headers__info .btn__pink.combos{
+    margin-top: 20px;
+} 
+
+
+
+
+.banner__carousel .banner__carousel-container .headers__img {
+    display: flex;
+    position: relative;
+    width: calc(100% - 374px);
+    justify-content: end;
+}
+
+.img__desk-header {
+    /* width: 100%; */
+    position: absolute;
+    height: 460px;
+    top: -20px;
+
+}
+
+@media (max-width:1200px) {
+    .img__desk-header {
+        /* width: 100%; */
+        height: 420px;
+        top: 10px;
+    }
+}
+
+.img__mobile-header {
+    display: none;
+}
+
+/* .banner__carousel .banner__carousel-container .headers__img img:nth-child(1){
+    height: 440px;
+    position: absolute;
+    bottom: ;
+    top: -20px;
+    z-index: 2;
+
+}
+
+.banner__carousel .banner__carousel-container .headers__img img:nth-child(2){
+    height: 367px;
+    position: absolute;
+    right: 0;
+    top: -50px;
+    z-index: 1;
+} */
+
+
+
+.banner__carousel .banner__carousel1 {
+    background-image: url("../../img/bannersPrincipales/BG-internet-sky-desktop.png");
+    background-position: center;
+
+}
+
+.banner__carousel .banner__paquetes{
+    background-image: url('../../img/banner/banner-sky-home.webp');
+    background-position: center;
+}
+
+.banner__carousel .banner__combos{
+    background-image: url('../../img/banner/banner-combos.png');
+    background-position: center;
+}
+
+.banner__carousel .banner__prepago{
+    background-image: url('../../img/banner/banner-prepago.png');
+    background-position: center;
+}
+
+/* @media (max-width:1650px) {
+  .banner__carousel .banner__carousel1 {
+    background-position: 65% 70%;
+  }
+}
+
+@media (max-width:1400px) {
+  .banner__carousel .banner__carousel1 {
+    background-position: 70% 70%;
+  }
+}
+
+@media (max-width:1250px) {
+  .banner__carousel .banner__carousel1 {
+    background-position: 80% 70%;
+    min-height: 400px;
+  }
+} */
+
+
+
+@media (max-width:1200px) {
+    .banner__carousel .banner__carousel1 {
+        background-position: 60% 70% !important;
+        /* min-height: 400px; */
+    }
+}
+
+/* @media (max-width:1200px) {
+  .banner__carousel .banner__carousel1 {
+    background-position: 80% 70%!important;
+  }
+} */
+
+.banner__carousel .banner__carousel2 {
+    background-image: url("../../img/bannersPrincipales/combos-vetv.webp");
+    background-position: center;
+}
+
+.banner__carousel .banner__carousel3 {
+    background-image: url("../../img/bannersPrincipales/combos-sky.webp");
+    background-position: center;
+}
+
+.bannerDisney {
+    background-image: url("../../img/bannersPrincipales/mc-banner-01.png");
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+}
+
+.banner__carousel .banner__promociones{
+    background-image: url('../../img/banner/banner-promociones.png');
+    background-position: center;
+}
+
+
+.banner__paquetes.promo2x1{
+    background-image: url('../../img/bannersDinamicos/banner-sky-2x1.webp');
+}
+
+.banner__paquetes.promoUpgrade{
+    background-image: url('../../img/bannersDinamicos/banner-sky-Upgrade.webp');
+}
+
+.banner__paquetes.promo30{
+    background-image: url('../../img/bannersDinamicos/banner-sky-30.webp');
+}
+
+.banner__paquetes.promoUltra{
+    background-image: url('../../img/bannersDinamicos/banner-sky-Ultra.webp');
+}
+
+.banner__paquetes.promoBundesliga{
+    background-image: url('../../img/bannersDinamicos/');
+}
+
+.navbar__Container {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    transition: background 0.2s ease-out;
+    z-index: 9;
+    background: #ffff;
+}
+
+.glide__bullets {
+    position: absolute;
+    bottom: 12%;
+    left: 48%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.glide__bullet {
+    height: 10px;
+    width: 10px;
+    outline: none !important;
+    padding: 0px !important;
+    border: none;
+    margin-right: 10px;
+    background-color: var(--blanco);
+    opacity: 0.7;
+    -webkit-transition: height 0.3s ease-in-out, width 0.3s ease-in-out,
+        background-color 0.1s ease-in-out;
+    transition: height 0.3s ease-in-out, width 0.3s ease-in-out,
+        background-color 0.1s ease-in-out;
+}
+
+.glide__bullet--active {
+    background-color: var(--azul);
+    opacity: 1;
+    height: 15px;
+    width: 15px;
+    -webkit-box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.25);
+}
+
+/* @media (min-width: 2000px) {
+
+    .banner,
+    .banner__carousel .banner__carousel-container {
+        min-height: 600px;
+    }
+} */
+
+@media (max-width: 1200px) {
+    .bannerPromos .info__banner .title__banner {
+        width: 46%;
+    }
+
+    .bannerPromos .info__banner .subtitle__banner {
+        width: 46%;
+    }
+
+    .banner__carousel .banner__carousel3 {
+        background-position: 45% 80%;
+    }
+
+    .banner__carousel .banner__carousel1 {
+        background-position: 48% 90%;
+    }
+
+    .bannerPromos {
+        background-color: var(--blanco);
+        background-position-y: 70px;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    /* .banner__carousel-container,
+    .banner__carousel .banner__carousel-container {
+        min-height: 480px;
+    } */
+
+    /* .banner {
+        min-height: 450px;
+    } */
+
+    .img__desk-header {
+        height: 410px;
+        top: 25px;
+    }
+}
+
+@media (max-width: 995px) {
+    /* .banner {
+        background-position: 55%;
+        min-height: 400px;
+        background-size: 160%;
+    } */
+
+    .bannerPromos .info__banner .title__banner {
+        width: 62%;
+    }
+
+    .bannerPromos .info__banner .subtitle__banner {
+        width: 62%;
+    }
+
+    .banner__carousel-container,
+    .banner__carousel .banner__carousel-container {
+        min-height: 450px;
+    }
+
+    .banner__carousel .banner__carousel1 {
+        background-position: 45% 70%;
+    }
+
+    .bannerPromos {
+        background-color: var(--blanco);
+        background-position: 50% 80%;
+        background-position-y: 40px;
+    }
+
+    .bannerDisney {
+        /* background-image: url('../../img/bannersPrincipales/mc-banner-mobile-01.png'); */
+        background-position: 40% 50%;
+        background-repeat: none;
+        background-size: cover;
+    }
+
+    .img__desk-header {
+        height: 340px;
+        top: 30px;
+    }
+
+    .banner__carousel .banner__carousel-container .headers__info {
+        width: 40%;
+        top: 100px;
+
+    }
+
+    .banner__carousel .banner__carousel-container .headers__info h1 {
+        font: normal normal 600 26px/30px Inter;
+    }
+
+    .banner__carousel .banner__carousel-container .headers__info h2 {
+        font: normal normal 500 18px/26px Inter;
+        margin-top: 10px;
+    }
+
+    .banner__carousel .banner__carousel-container .headers__info .btn__pink {
+        margin-top: 20px;
+    }
+
+    .banner__carousel .banner__carousel-container .headers__img {
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 830px) {
+    /* .banner {
+        background-position: 50% 20%;
+        min-height: 350px;
+        background-size: 165%;
+    }
+
+    
+
+    .banner__carousel-container,
+    .banner__carousel .banner__carousel-container {
+        min-height: 360px;
+    } */
+
+    /* .banner__carousel .banner__carousel1 { */
+    /* background-image: url("../../img/bannersPrincipales/mc-banner-01.png"); */
+    /* background-position: 45% 70%; */
+    /* } */
+
+    .img__desk-header {
+        height: 300px;
+        top: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .banner {
+        background-position: 50% 20%;
+        min-height: 650px;
+        background-size: 110%;
+    }
+
+    .banner__carousel .banner__carousel-container .headers__img {
+        width: 100%;
+        margin-top: 70px;
+    }
+
+    .banner__carousel .banner__paquetes{
+        background-image: url('../../img/banner/banner-sky-home-mobile.webp');
+        background-position: center;
+        min-height: 700px;
+
+    }
+
+    .banner__carousel .banner__combos{
+        background-image: url('../../img/banner/banner-combos-mobile.png');
+        background-position: center;
+        min-height: 850px!important;
+
+    }
+
+    .banner__carousel .banner__prepago{
+        background-image: url('../../img/banner/banner-prepago-mobile.png');
+        background-position: center;
+        min-height: 850px!important;
+
+    }
+
+    .banner__carousel .banner__promociones{
+        background-image: url('../../img/banner/banner-promociones-mobile.png');
+        background-position: center;
+    }
+
+
+
+    .banner__carousel .banner__carousel-container .headers__info h1 {
+        font: normal normal 600 30px/33px Inter;
+    }
+
+    .banner__carousel .banner__carousel-container .headers__info h2 {
+        font: normal normal 500 24px/33px Inter;
+    }
+
+    .img__mobile-header {
+        display: block;
+        width: 100%;
+    }
+
+    .banner__carousel .banner__carousel-container .headers__info {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        justify-content: space-between;
+    }
+
+    .banner__carousel .banner__carousel-container .headers__info .titles {
+        margin-top: 10px;
+        text-align: left;
+    }
+
+    .banner__carousel .banner__carousel-container .headers__info .btn__pink {
+        margin-top: -17px;
+
+    }
+
+
+    .banner__carousel .banner__carousel-container .banner__titles {
+        flex-direction: column;
+        margin-top: 110px;
+    }
+
+    .banner__carousel-container, .banner__carousel .banner__carousel-container{
+        align-items: flex-start;
+    }
+
+    .img__desk-header {
+        display: none;
+    }
+
+    .banner__carousel-container,
+    .banner__carousel .banner__carousel-container {
+        min-height: 600px;
+    }
+
+    .banner__carousel .banner__carousel1 {
+        background-image: url("../../img/bannersPrincipales/BG-paquetes-mobile.png");
+    }
+
+    .banner__carousel .banner__carousel2 {
+        background-image: url("../../img/bannersPrincipales/combos-vetv-mobile.webp");
+    }
+
+    .banner__carousel .banner__carousel3 {
+        background-image: url("../../img/bannersPrincipales/combos-sky-mobile.webp");
+    }
+
+    .bannerPromos .info__banner {
+        margin-top: 370px;
+    }
+
+    .bannerPromos .info__banner .title__banner {
+        width: 80%;
+        margin: 0px auto;
+        text-align: center;
+        font: normal normal 600 24px/32px Inter;
+    }
+
+    .bannerPromos .info__banner .subtitle__banner {
+        width: 90%;
+        text-align: center;
+        margin: 0px auto;
+        margin-top: 10px;
+        font: normal normal 500 24px/30px Inter;
+    }
+
+    .bannerPromos .info__banner {
+        min-height: auto;
+    }
+
+    .bannerPromos {
+        background-image: url("../../img/banners/mc-banner-promo-mobile-promos.png");
+    }
+
+    .bannerDisney {
+        background-image: url("../../img/bannersPrincipales/mc-banner-mobile-01.png");
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+    }
+
+    .banner__carousel .banner__carousel-container .headers__info.combos{
+        flex-direction: column;
+    }
+
+
+    .banner__paquetes.promo2x1{
+        background-image: url('../../img/bannersDinamicos/banner-sky-mobile-2x1.webp');
+    }
+    
+    .banner__paquetes.promoUpgrade{
+        background-image: url('../../img/bannersDinamicos/banner-sky-mobile-Upgrade.webp');
+    }
+    
+    .banner__paquetes.promo30{
+        background-image: url('../../img/bannersDinamicos/banner-sky-mobile-30.webp');
+    }
+    
+    .banner__paquetes.promoUltra{
+        background-image: url('../../img/bannersDinamicos/banner-sky-mobile-Ultra.webp');
+    }
+    
+    .banner__paquetes.promoBundesliga{
+        background-image: url('../../img/bannersDinamicos/');
+    }
+    
+}
+
+@media (max-width: 650px) {
+    /* .banner {
+        min-height: 700px;
+        background-size: cover;
+    } */
+
+    .banner__carousel-container,
+    .banner__carousel .banner__carousel-container {
+        /* min-height: 750px; */
+    }
+}
+
+@media (max-width: 550px) {
+    /* .banner {
+        min-height: 450px;
+        background-size: 100%;
+    } */
+
+    .banner__carousel-container,
+    .banner__carousel .banner__carousel-container {
+        min-height: 600px;
+    }
+
+    .bannerDisney {
+        background-image: url("../../img/bannersPrincipales/mc-banner-mobile-01.png");
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+    }
+}
+
+@media (max-width: 380px) {
+    .banner {
+        min-height: 550px;
+        background-size: 110%;
+    }
+
+    .banner__carousel-container,
+    .banner__carousel .banner__carousel-container {
+        min-height: 650px;
+    }
+
+    .bannerDisney {
+        background-image: url("../../img/bannersPrincipales/mc-banner-mobile-01.png");
+        background-position: center;
+        background-repeat: none;
+        background-size: cover;
+    }
+}
+
+.banner__carousel .banner__carousel-container .headers__info.combos {
+    width: 45%;
+}
+
+.banner__carousel .banner__carousel-container .headers__img.combos {
+    width: 55%;
+    top: 40px;
+}
+
+.img__desk-header.bannerCombos {
+    height: 400px;
+}
+
+.img__desk-header.combosBanner2{
+    top: -60px;
+}
+
+@media (max-width:1200px) {
+    .banner__carousel .banner__carousel-container .headers__info.combos {
+        width: 40%;
+    }
+
+    .banner__carousel .banner__carousel-container .headers__img.combos {
+        width: 60%;
+    }
+
+    .img__desk-header.bannerCombos {
+        height: 350px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .img__desk-header.bannerCombos {
+        top: 10px;
+    }
+
+}
+
+@media (max-width: 995px) {
+    .img__desk-header.bannerCombos {
+        height: 300px;
+    }
+
+    .banner__carousel .banner__carousel-container .headers__info .price {
+        font: normal normal 600 45px/50px Inter;
+        margin-top: 10px;
+    }
+
+    .banner__carousel .banner__carousel-container .headers__info .price sup{
+        font: normal normal 600 12px/40px Inter;
+        vertical-align:25px;
+    }
+
+    .banner__carousel .banner__carousel-container .headers__info .priceLegend{
+        font: normal normal 400 14px/34px Inter;
+    }
+
+
+}
+
+@media (max-width:767px) {
+    .banner__carousel .banner__carousel-container .headers__img.combos{
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+            /* margin-top: 50px; */
+
+    }
+    .banner__carousel .banner__carousel-container .headers__info.combos{
+        width: 100%;
+    }
+
+    .banner__carousel .banner__carousel-container .headers__info .price {
+        font: normal normal 600 54px/75px Inter;
+        margin-top: 10px;
+    }
+
+    .banner__carousel .banner__carousel-container .headers__info .price sup{
+        font: normal normal 600 12px/40px Inter;
+        vertical-align:25px;
+    }
+
+    .banner__carousel .banner__carousel-container .headers__info .priceLegend{
+        font: normal normal 400 16px/36px Inter;
+    }
+
+    .banner__carousel .banner__carousel-container .headers__info .btn__pink.combos{
+        margin-top: 10px;
+    }
+    .banner__carousel .banner__carousel-container .headers__info.combos .titles{
+        margin-top: 10px;
+    }
+
+    .banner__carousel .banner__carousel-container .headers__img.combos {
+        /* width: 55%; */
+        top: 55px;
+    }
+
+    .mobile__paquetes-imgMobile{
+        margin-top: 50px;
+    }
+}
+

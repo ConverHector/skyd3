@@ -1,0 +1,74 @@
+
+@import url('styles/header.min.css');
+@import url('styles/form.min.css');
+@import url('styles/telephone-banner.css');
+
+@import url('styles/instalacionBanner.min.css');
+@import url('styles/ask-combos.css');
+@import url('styles/cardLigas.css');
+
+@import url('styles/form-footer.css');
+@import url('styles/footer.min.css');
+@import url('theme/theme.css');
+
+@import url('styles/formpop.css');
+
+@import url('styles/cardsPaqueteTV.min.css');
+
+@import url('styles/cardPlanesLink.min.css');
+
+@import url('styles/universalHBO.min.css');
+
+
+.prepagoCard .row {
+    justify-content: center;
+}
+
+.prepagoCard .col {
+    max-width: 650px !important;
+    flex: 0 0 650px;
+    display: flex;
+    flex-direction: row-reverse;
+    /* justify-content: center; */
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: auto;
+
+
+}
+
+.prepagoCard .col .logo {
+    width: 50%;
+    background-image: url('../img/banner/banner-prepago-card.png');
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.prepagoCard .col .cardPaqueteTV {
+    width: 50%;
+    margin: 0 !important;
+    border-right: none;
+    border-radius: 0px 32px 32px 0px;
+    border: 1px solid var(--azul-baner);
+}
+
+@media (max-width:767px) {
+    .prepagoCard .col .logo {
+        display: none;
+    }
+
+    .prepagoCard .col .cardPaqueteTV {
+        border-right: 1px solid #AAAAAA;
+        border-radius: 8px;
+        width: 100%;
+    }
+
+    .prepagoCard .col {
+        max-width: 90% !important;
+        flex: 0 0 90%;
+    }
+}

@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ES">
+
+<head>
+    <title>Sky Prepago | SKY México</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Description"
+        content="Conoce los paquetes de en alta definición que ofrece SKY HD. Hasta 119 canales en HD | 42 canales en SD con las mejores exclusivas y deportes. ¡Contrata con promoción!">
+    <meta name="Keywords"
+        content="sky, sky mexico, sky paquetes, sky tv, sky hd, contratar sky, programacion sky, sky paquetes y precios, sky canales, paquetes de sky, cable, sky, blue to go, sky tv, tele por cable, sky mexico, sky paquetes precios, sky méxico, telefono sky, sky linea telefonica, llamar sky, numero de sky, sky paquetes y precios, paquetes sky, sky mexico paquetes, canaales sky, sky sports mexico">
+    <meta name="Robots" content="index,follow">
+    <meta name="Robots" content="index,follow">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="assets/glider/glider.min.css"> -->
+    <link rel="stylesheet" href="assets/css/prepago.css">
+</head>
+
+<body>
+
+    <header class="banner banner__carousel-container">
+        <div class="banner__carousel">
+            <div class="glide__track" data-glide-el="track">
+                <div class="glide__slides">
+
+                    <div class="banner__carousel-container banner__prepago">
+                        <div class="container banner__titles">
+                            <div class="headers__info combos">
+                                <div class="titles">
+                                    <h1>Sky Prepago</h1>
+                                    <h2 class="h2__small">Lo mejor del entretenimiento para tu hogar,<br> sólo con Sky Prepago<br><br>
+                                        Desde</h2>
+                                    <p class="price">
+                                        $249<sup>(1)</sup>
+                                    </p>
+                                    <p class="priceLegend">
+                                        Al mes | Precio Regular
+                                    </p>
+                                </div>
+                                <button class="btn__pink combos" data-ic-popup="form-popup.html"
+                                    onclick="gtag('send', 'event', 'LO QUIERO', 'clic', 'LO QUIERO', 0);">Lo
+                                    quiero</button>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- <div class="banner__carousel-container banner__carousel2"></div> -->
+                    <!-- <div class="banner__carousel-container banner__carousel3"></div> -->
+                </div>
+            </div>
+
+            <!-- <div class="glide__bullets" data-glide-el="controls[nav]">
+                <button class="glide__bullet" data-glide-dir="=0"></button>
+                <button class="glide__bullet" data-glide-dir="=1"></button>
+                <button class="glide__bullet" data-glide-dir="=2"></button>
+            </div> -->
+
+            <div class="navbar__Container">
+                <div class="container">
+                    <nav class="navbar">
+
+                        <div class="menu__hamburger" data-openmenu="false">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <div class="navbar__menuLogo">
+
+                            <a href="skypaquetes.html" class="logosky__container">
+                                <img src="assets/img/logos/logo-sky-distribuidorV2.svg" alt="Logo sky" class="sky__logo">
+                            </a>
+
+
+                            <ul class="navbar__links">
+                                <li>
+                                    <a href="skypaquetes.html">Sky Paquetes TV</a>
+                                </li>
+                                <li>
+                                    <a href="combos-sky.html">Sky + Internet</a>
+                                </li>
+                                <li class="active">
+                                    <a href="sky-prepago.html">Sky Prepago</a>
+                                </li>
+                                <li>
+                                    <a href="promociones-sky.html">Promociones</a>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                        <div class="contact__client">
+                            <p>Si eres cliente llama al</p>
+                            <a href="tel:555 169 0000">555 169 0000</a>
+                        </div>
+
+
+
+                        <div class="content__contacTelephone">
+                            <div class="contacTelephone">
+                                <a onclick="return gtag_report_conversion('tel:{{parameterOrDefault inboundPublicNumber 01 800 000}}')"
+                                    href="tel:{{parameterOrDefault inboundPublicNumber '01 800 000'}}" target="_parent"
+                                    class="phone__Contact-container">
+                                    <p class="contrataYa">LLAMA GRATIS AL</p>
+                                    <div class="phone__contact-banner">
+                                        <img src="assets/img/iconos/icn-call.svg" alt="icono Telefono"
+                                            class="icon__telephoneNum">
+                                        <p>
+                                            {{parameterOrDefault inboundPublicNumber '01 800 000'}}
+                                            <!-- 01 800 000 -->
+                                        </p>
+
+
+                                    </div>
+
+                                    <!-- </a> -->
+                                </a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="navbar__links-containerMobile fadeIn">
+                    <ul class="navbar__links-mobile fadeInLeft">
+
+                        <div class="header__menuMobile">
+                            <a href="combos-tv-internet.html">
+                                <img src="assets/img/logos/logo-sky-distribuidorV2.svg" alt="sky logo"
+                                    class="mc__mobile">
+                            </a>
+                            <img src="assets/img/iconos/close_icon.svg" alt="close menu icon"
+                                class="close__menu close-menuHamburger">
+                        </div>
+                        <li>
+                            <a href="skypaquetes.html">
+                                Paquetes TV
+                            </a>
+                        </li>
+                        <li>
+                            <a href="combos-sky.html">
+                                Sky + Internet
+                            </a>
+                        </li>
+
+                        <li class="active">
+                            <a href="sky-prepago.html">
+                                Sky Prepago
+                            </a>
+                        </li>
+                        <li>
+                            <a href="promociones-sky.html">
+                                Promociones
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="mobile__text-phone">SI ERES CLIENTE LLAMA AL <a href="tel:555 169 0000">555 169 0000</a></p>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="container">
+        <div class="form">
+            <div class="form__msg">
+                <p class="form__msg-title">
+                    ¡Contrata ahora!
+                </p>
+                <p class="form__msg-subtitle">
+                    Déjanos tu número y te
+                    <br>llamamos sin costo
+                </p>
+            </div>
+
+            <form action="" method="post" onsubmit="return false" class="dhx-form form__container">
+                <div data-gjs-draggable="form, form *" class="form__inputContainer">
+                    <!-- <p class="form__container-inputLegend">Teléfono a 10 digitos</p> -->
+                    <input type="tel" data-ic-form-field="phone" id="phone-input" name="phone-input"
+                        class="gtm-form-popup-input-tel input__black" aria-describedby="phoneHelp"
+                        placeholder="Ingresa tu número" maxlength="10" />
+                </div>
+                <div data-gjs-draggable="form, form *">
+                    <button type="submit" class="gtm-form-popup-submit 
+                    btn__pink"
+                        onclick="gtag('send', 'event', 'LLAMAR AHORA', 'clic', 'LLAMAR AHORA', 0);">Llámenme</button>
+                </div>
+                <div data-gjs-draggable="form, form *" class="container__terms">
+                    <input data-ic-form-field="terms" id="terms-check-06" name="terms-check-06" type="checkbox"
+                        class="form-check-input" checked="">
+                    <label data-gjs-draggable="form, form *" class="form__container-checkLabel" for="terms-check-06">He
+                        leído y acepto las políticas de privacidad
+                        <!-- <a href="politicas-privacidad.html" target="_blank">términos y
+                            condiciones.</a></label> -->
+                </div>
+            </form>
+        </div>
+    </section>
+
+
+    <div class="container prepagoCard cardsPaquetesTV">
+        <div class="row cardsPaquetesTV__container">
+            <div class="col">
+
+                <div class="cardPaqueteTV">
+                    <!-- <div class="logo__plan-card bg__silver">
+                        <img src="assets/img/logo/Logo-SkyPrepago-Blanco.svg" alt="sky silver" class="logo__card">
+                    </div> -->
+                    <!-- <img src="assets/img/logo/SKY_prepago_logo.png" alt="sky silver" class="logo__card"> -->
+                    <div class="container__blue-card bluecard2">
+                        <p class="cardPaqueteTV-title">Precio de promoción</p>
+                        <div class="carPaqueteTV-prices">
+                            <p class="carPaqueteTV-priceOriginal">
+                                <span>$</span>249<sup class="supp__title">(1)</sup>
+                            </p>
+                        </div>
+                        <p class="carPaqueteTV-priceLista"> al mes
+                        </p>
+                        <!-- <p class="carPaqueteTV-subtitle ">Pago oportuno</p>
+                        <p class="carPaqueteTV-priceLista ">Precio Regular <sup>(3)</sup><span>$429</span></p> -->
+                    </div>
+
+                    <div class="carPaqueteTV-canales">
+                        <div class="title  color__blue">68 canales</div>
+                        <div class="carPaqueteTV-canalesDescripcion">
+                            <ul>
+                                <li><img src="assets/img/iconos/icon-flecha.png" alt="flecha aceptado"></li>
+                                <li><img src="assets/img/iconos/icon-flecha.png" alt="flecha aceptado"></li>
+                                <li><img src="assets/img/iconos/icon-flecha.png" alt="flecha aceptado"></li>
+                                <li><img src="assets/img/iconos/icon-flecha.png" alt="flecha aceptado"></li>
+                                <li><img src="assets/img/iconos/icon-flecha.png" alt="flecha aceptado"></li>
+
+                            </ul>
+                            <ul class="numeros color__gray">
+                                <li>56</li>
+                                <li>12</li>
+                                <li>6</li>
+                                <li>11</li>
+                                <li>60</li>
+                            </ul>
+                            <ul class="color__gray">
+                                <li>Canales HD</li>
+                                <li>Video SD</li>
+                                <li>Mosaicos</li>
+                                <li>Pago por Evento</li>
+                                <li>Audio/Musicales</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- <div class="blueTogo__legend">
+                        <p class="color__pink">Además, acceso gratis a:</p>
+                        <img src="assets/img/logos/bluetologoBwhite.png" alt="blue to go incluido">
+                    </div> -->
+                    <div class="carPaqueteTV-buttons">
+                        <button onclick="gtag('send', 'event', 'LO QUIERO', 'clic', 'LO QUIERO', 0);"
+                            class="btn__pink btnContact">Lo quiero</button>
+                        <button class="btn__lineBlue btn__showModals" modal="modal_prepago">Ver canales</button>
+
+
+                    </div>
+                </div>
+
+                <div class="logo">
+                </div>
+            </div>
+        </div>
+
+        <p class="terms-conditions">
+            (1) Precio regular del paquete con 1
+            equipo sin grabación. Precio registrado ante el Instituto Federal de Telecomunicaciones, mismo que puede ser
+            consultado en www.ift.org.mx.
+            (3)Promoción valida para clientes activados del 15/11/22 al 31/12/22. Promoción vigente hasta el 31 de diciembre del 2022. 
+        </p>
+    </div>
+
+
+    <div class="container">
+        <div class="planesLinks">
+            <div class="planesLinks__card">
+                <div class="image link1"></div>
+                <!-- <button class="btn__pink btn__contact">Ver paquetes</button> -->
+
+                <div class="description">
+                    <!-- <p class="title">SKY paquetes de televisión</p> -->
+                    <img src="assets/img/logos/logo-sky-distribuidorV2.svg" alt="prepago sky">
+                    <p class="subtitle">¡Lleva más entretenimiento a tu hogar!</p>
+                    <p class="legend">Conoce nuestros paquetes Sky y disfruta de hasta 253 canales.</p>
+                    <a href="skypaquetes.html" class="container__btn desk">
+                        <button class="btn__pink btn__contact">Ver paquetes</button>
+                    </a>
+                </div>
+
+            </div>
+            <a href="skypaquetes.html" class="container__btn mobile">
+                <button class="btn__pink btn__contact">Ver paquetes</button>
+            </a>
+            <div class="planesLinks__card card-reverse">
+                <div class="image link2"></div>
+                <div class="description">
+                    <!-- <p class="title">sky paquetes de televisión</p> -->
+                    <img src="assets/img/logos/SKY_prepago_logo.png" alt="prepago sky">
+                    <p class="subtitle">Paga el primer mes de Sky Prepago y la suscripción es gratis en 1 equipo
+                    </p>
+                    <!-- <p class="legend">Conoce nuestros paquetes SKY y disfruta de hasta 253 canales.</p> -->
+                    <div  class="container__btn desk btn__contact">
+                    <button onclick="gtag('send', 'event', 'LO QUIERO', 'clic', 'LO QUIERO', 0);"
+                        class="btn__pink btnContact">Lo quiero</button>
+                    </div>
+                </div>
+            </div>
+            <div class="container__btn mobile btn__contact">
+                <button onclick="gtag('send', 'event', 'LO QUIERO', 'clic', 'LO QUIERO', 0);"
+                        class="btn__pink btnContact">Lo quiero</button>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <!-- <section class="container banner__ligas">
+        <div id="banner__margin" class="banner__ligas__imagen">
+            <img src="assets/img/banner/promo-combos-bti.webp" alt="Promociones Blue Telecomm Internet" class="d-none d-md-block">
+            <img src="assets/img/banner/promo-combos-bti-mobile.webp" alt="Promociones Blue Telecomm Internet" class="d-md-none">
+            <a data-ic-popup="form-popup.html">
+                <button class="btn__rosa-redondo btn-rosa-ask">Lo quiero</button>
+            </a>
+        </div>
+    </section> -->
+
+    <!-- <section class="container VeTvInternet">
+        <p class="precioCombo">*Aplica para la contratación de VETV HD en 1 equipo con recarga de 30 días.</p>
+        <div class="VeTvInternet__container">
+            <p class="title__vetv">El combo que esperabas, el mejor <span>entretenimiento + internet</span> para tu hogar</p>
+            <p class="VeTvInternet__container-title">
+                Combos VETV + Internet
+            </p>
+            <p class="VeTvInternet__container-subtitle">
+                Elige el Combo de TV + Internet que más te convenga en prepago
+            </p>
+            <div class="carousel" style="position: relative;">
+                <button role="button" class="glider-prev disabled" id="prev-vtv">
+                    <i class="fa fa-chevron-left"></i>
+                </button>
+                <div class="VeTvInternet__container-cards">
+                </div>
+                <button role="button" class="glider-next" id="next-vtv">
+                    <i class="fa fa-chevron-right"></i>
+                </button>
+
+            </div>
+        </div>
+    </section> -->
+
+    <!-- <section class="container">
+        <div class="skyblue__blue">
+            <div class="info">
+                <img src="assets/img/logos/sky-bti-white.svg" alt="" class="logoskybtc">
+                <p class="title">
+                    ¿Quieres disfrutar de <span>más contenidos, más canales </span> y muchas más diversión?
+                </p>
+
+                <p class="subtitle">
+                    Conoce nuestros Combos SKYHD + INTERNET desde <span>$545</span> al mes
+                </p>
+                
+                <a href="combos-sky-internet.html">
+                    <button class="btn__rosa-redondo btn__pink">Ver paquetes SKYHD</button>                
+                </a>
+
+            </div>
+            <div class="img__banner">
+                <img src="assets/img/iconos/img-skycombos1/img-skycombos.png" alt="">
+            </div>
+        </div>
+    </section> -->
+
+
+
+    <!-- <div class="chatInterno__container">
+        <div class="container">
+            <a href="https://skyvideo.custhelp.com/app/chat/leadconvertia/origen/112/pais/MX/p/247" target="_blank">
+                <div class="chatInterno">
+                    <div class="icon">
+                        <img src="assets/img/iconos/icn-chatbot.svg" alt="icono chatbot">
+                    </div>
+                    <div class="chatInterno__info">
+                        <p class="title"><span>¡Contrataciones o </span><br>Servicio a Clientes!</p>
+                        
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div> -->
+
+    <div class="form__footer footerScroll zoomInDown">
+        <div class="container">
+            <div class="form__footer-body">
+                <div class="contrata-ahora">
+                    <p class="title">¡Contrata ahora al </p>
+                    <a onclick="return gtag_report_conversion('tel:{{parameterOrDefault inboundPublicNumber 01 800 000}}')"
+                        href="tel:{{parameterOrDefault inboundPublicNumber '01 800 000'}}" target="_parent">
+                        {{parameterOrDefault inboundPublicNumber '01 800 000'}}
+                        <!-- 01 800 000 -->
+                    </a>
+
+
+                    <!-- <p class="subtitle">Déjanos tu número <br> y te llamamos en minutos</p> -->
+                </div>
+                <div class="formulario">
+                    <form action="" method="post" onsubmit="return false" class="dhx-form form-box banner__form-form">
+                        <div class="form__body">
+                            <p class="opcion__b">O déjanos tu número y te llamamos sin costo</p>
+                            <div class="form-input">
+                                <!-- <p class="sky-text-legend formPopUp-legend">Teléfono a 10 digitos</p> -->
+                                <div data-gjs-draggable="form, form *" class="form-group mb-2">
+                                    <input type="tel" data-ic-form-field="phone" id="phone-input" name="phone-input"
+                                        class="input form-control gtm-form-popup-input-tel" aria-describedby="phoneHelp"
+                                        placeholder="Ingresa tu teléfono" maxlength="10" />
+                                </div>
+
+                            </div>
+                            <div class="form-button">
+                                <div data-gjs-draggable="form, form *" class="form-group text-center mb-0">
+                                    <button type="submit" class="w-100 mx-auto gtm-form-popup-submit btn__pink"
+                                        onclick="gtag('send', 'event', 'LLAMAR AHORA', 'clic', 'LLAMAR AHORA', 0);">Llámenme</button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div data-gjs-draggable="form, form *" class="form-group form-termsAvisos">
+                            <div class="form-check form__terms" data-gjs-draggable="form, form *">
+                                <input data-ic-form-field="terms" id="terms-check-06" name="terms-check-06"
+                                    type="checkbox" class="form-check-input" checked="">
+                                <label data-gjs-draggable="form, form *" class="pl-1 form-check-label"
+                                    for="terms-check-06">He leído y acepto el <a
+                                        href="https://www.sky.com.mx/aviso-de-privacidad.html" target="_blank"> aviso de
+                                        privacidad
+                                    </a>
+                                </label>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container footer__container">
+            <div class="logo">
+                <img src="assets/img/logos/logo-sky-distribuidorV2.svg" alt="Logo sky">
+                <p>©Copyright 2018</p>
+            </div>
+            <div class="links">
+                <a href="https://www.sky.com.mx/aviso-de-privacidad.html" target="_blank">Aviso de privacidad</a>
+                <a href="assets/LEGALES-SKY.pdf" target="_blank">Términos y Condiciones</a>
+            </div>
+        </div>
+        <div class="container footer__info">
+            <div class="footer-text">
+                “Sky” y las marcas relacionadas, nombres y logotipos, son propiedad de “Sky International AG” y otras
+                empresas del grupo.
+                <p class="footer__enlaces">
+                    <a target="_blank" href="http://www.televisanetworks.tv/tarifas.asp">Aviso para concesionarios de
+                        televisión y audio restringida</a> |
+                    <a target="_blank" href="https://www.sky.com.mx/Code/docs/cntr-sky-mx-se.pdf">Contrato de
+                        Suscripción
+                        Derechos reservados</a> |
+                    <a target="_blank"
+                        href="https://www.dof.gob.mx/nota_detalle.php?codigo=5641266&fecha=25/01/2022#gsc.tab=0">
+                        Carta de Derechos Mínimos de los Usuarios de Telecomunicaciones</a>
+                    <a target="_blank" href="https://www.sky.com.mx/Code/docs/codigo-practicas-comerciales.pdf"> Código
+                        de
+                        Prácticas comerciales</a> |
+                    <a target="_blank" href="https://www.sky.com.mx/Code/docs/codigo-etica-sky.pdf"> Código de Ética</a>
+                </p>
+                <!-- <br> -->
+
+                <p class="footer__fin">
+                    © Corporación Novavisión S. de R.L. de C.V. 2022. Prohibida su reproducción total o parcial. Av.
+                    Insurgentes Sur 694, Col. Del Valle, Ciudad de México.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modalContact">
+        <div class="banner__form-modal">
+            <img src="assets/img/logos/logo-sky-distribuidorV2.svg" alt="Logo sky">
+            <p class="banner__form-title">¡Vive la alta definición de SKY!</p>
+            <div class="banner__form-subtitle">
+                <p class="contrata__text">Contrata ahora al <br><span>
+                        <a class="ic-phone-link color-rosa"
+                            onclick="return gtag_report_conversion('tel:{{parameterOrDefault inboundPublicNumber 01 800 000}}')"
+                            href="tel:{{parameterOrDefault inboundPublicNumber '01 800 000'}}"
+                            target="_parent">{{parameterOrDefault inboundPublicNumber '01 800 000'}}</a>
+                    </span></p>
+
+                <p class="dejatuNumero">O si prefieres, ¡Te llamamos sin costo!</p>
+            </div>
+
+
+            <form action="" method="post" onsubmit="return false" class="dhx-form form-box2 banner__form-form">
+                <p class="sky-text-legend formPopUp-legend">Teléfono a 10 dígitos</p>
+                <div data-gjs-draggable="form, form *" class="form-group mb-2">
+                    <input type="tel" data-ic-form-field="phone" id="phone-input" name="phone-input"
+                        class="input form-control gtm-form-popup-input-tel" aria-describedby="phoneHelp"
+                        placeholder="Ingresa tu teléfono" maxlength="10" />
+                </div>
+
+
+                <div data-gjs-draggable="form, form *" class="form-group">
+                    <div class="form-check form__terms" data-gjs-draggable="form, form *">
+                        <input data-ic-form-field="terms" id="terms-check-06" name="terms-check-06" type="checkbox"
+                            class="form-check-input" checked="">
+                        <label data-gjs-draggable="form, form *" class="form-check-label textTerms"
+                            for="terms-check-06">Acepto <a href="politicas-privacidad.html" target="_blank">términos y
+                                condiciones.</a></label>
+                    </div>
+                </div>
+
+                <div data-gjs-draggable="form, form *" class="form-group text-center mb-0">
+                    <button type="submit" class="gtm-form-popup-submit btn__pink"
+                        onclick="gtag('send', 'event', 'LLAMAR AHORA', 'clic', 'LLAMAR AHORA', 0);">Lo quiero</button>
+                </div>
+            </form>
+        </div>
+        <div class="closeIcon__modal">
+            <img class="icon" src="assets/img/iconos/icn-close.svg" alt="icono cerrar">
+        </div>
+    </div>
+
+    <script src="assets/js/navbar.js"></script>
+    <!-- <script src="assets/js/cards.js"></script> -->
+    <script src="assets/js/glider.min.js"></script>
+    <!-- <script src="assets/js/carousel-cards.js"></script> -->
+    <script src="assets/js/modalCanales.js"></script>
+    <script src="assets/js/animationScroll.js"></script>
+
+</body>
+
+</html>

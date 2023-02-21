@@ -1,0 +1,104 @@
+.VeTvInternet {
+  margin-top: 16px;
+}
+
+.VeTvInternet .precioCombo {
+  font: normal normal 400 14px/20px Inter;
+  color: var(--gris-subtitulos);
+}
+
+.VeTvInternet .title__vetv{
+  text-align: center;
+  /* width: 60%;
+  margin: auto; */
+  font: normal normal 400 32px/40px Inter;
+  color: var(--naranja);
+  margin-bottom: 60px;
+}
+.VeTvInternet .title__vetv span {
+  font: normal normal 600 32px/40px Inter;
+}
+
+.color__blue{
+  color: var(--azul-baner)!important;
+}
+
+.VeTvInternet .VeTvInternet__container {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.VeTvInternet .VeTvInternet__container .VeTvInternet__container-title {
+  color: var(--gris-titulos);
+  font: normal normal 500 32px/40px Inter;
+}
+
+.VeTvInternet .VeTvInternet__container .VeTvInternet__container-subtitle {
+  margin-top: 10px;
+  color: var(--gris-subtitulos);
+  font: normal normal 400 22px/26px Inter;
+}
+
+.VeTvInternet .VeTvInternet__container .VeTvInternet__container-cards {
+  margin-top: 50px;
+}
+
+.VeTvInternet .VeTvInternet__container .VeTvInternet__container-cards .glider-track {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.VeTvInternet .VeTvInternet__container .skyHDInternet__container-cards {
+  margin-top: 50px;
+}
+
+.VeTvInternet .glider-dot.active {
+  background-color: var(--rosa);
+}
+
+.mt-8 {
+  margin-top: 80px !important;
+}
+
+@media (min-width:990px) {
+  .VeTvInternet .title__vetv{
+    width: 70%;
+    margin: auto;
+    margin-bottom: 60px;
+  }
+}
+
+@media (min-width:1300px) {
+  .VeTvInternet .title__vetv{
+    /* width: 60%; */
+    margin: auto;
+    margin-bottom: 60px;
+  }
+}
+
+
+
+@media (max-width: 700px) {
+  .VeTvInternet .VeTvInternet__container .VeTvInternet__container-cards .glider-track {
+    -webkit-box-pack: normal;
+        -ms-flex-pack: normal;
+            justify-content: normal;
+  }
+
+  .VeTvInternet .title__vetv{
+    text-align: left;
+    font: normal normal 400 28px/32px Inter;
+  }
+  .VeTvInternet .title__vetv span {
+    font: normal normal 600 28px/32px Inter;
+  }
+
+  .VeTvInternet .VeTvInternet__container {
+    text-align: left;
+  }
+}
+
+.glider-track::-webkit-scrollbar-thumb {
+  background: transparent;
+}

@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "Inter";
+    src: url("../../font/SkyTextRegular.ttf")
+}
+
+@font-face {
+    font-family: "InterL";
+    src: url("../../font/SkyTextLight.ttf")
+}
+
+@font-face {
+    font-family: "InterB";
+    src: url("../../font/SkyTextBold.ttf")
+}

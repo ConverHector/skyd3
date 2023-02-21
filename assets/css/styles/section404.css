@@ -1,0 +1,81 @@
+.body404 {
+  height: 84vh;
+  /* width: 100vw; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0px 5%;
+}
+
+.body404 .body404-container {
+  background-image: url("../../img/404/404.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 360px;
+  width: 471px;
+}
+
+.body404 .body404-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: -100px;
+}
+
+.body404 .body404-text p {
+  font: normal normal 400 16px/22px Inter;
+  color: var(--gris-titulos);
+  margin-top: 10px;
+  width: 80%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.body404 .body404-text p:first-child {
+  margin-top: 0px;
+  font: normal normal 600 24px/22px Inter;
+  color: var(--rosa-title);
+}
+
+.body404 .body404-text a {
+  margin: 25px auto;
+  font: normal normal 600 18px/21px Inter;
+  width: 200px;
+  padding: 10px;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .body404 {
+    height: 70vh;
+  }
+  .body404 .body404-text p {
+    width: 80%;
+    text-align: left;
+  }
+  .body404 .body404-container {
+    width: 298px;
+    height: 220px;
+  }
+  .body404 .body404-text {
+    margin-top: -50px;
+  }
+  .body404 .body404-text p {
+    margin-left: 10px;
+  }
+}

@@ -1,0 +1,206 @@
+.universalHBO {
+    /* background-color: #eeeeee; */
+    margin-top: 80px;
+    /* padding-bottom: 80px */
+}
+
+.universalHBO .titles {
+    text-align: center;
+}
+
+
+.universalHBO .titles p {
+    /* font: normal normal 600 36px/43px Inter;
+    color: var(--text) */
+}
+
+.universalHBO .titles p span {
+    display: inline-block;
+    background-color: var(--text);
+    color: var(--white)
+}
+
+@media (max-width: 995px) {
+    .universalHBO .titles p {
+        font: normal normal 600 30px/40px Inter
+    }
+}
+
+@media (max-width: 767px) {
+    .universalHBO .titles p {
+        font: normal normal bold 28px/33px Inter
+    }
+
+    .universalHBO .titles p .br__small {
+        display: none
+    }
+}
+
+.universalHBO .universalHBO__cards {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.universalHBO .universalHBO__cards .cardLogo {
+    width: 47%;
+    background:#000000;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    /* justify-content: space-between; */
+    padding: 20px 20px 20px 20px;
+    min-height:300px;
+    box-shadow: -7px 7px 12px #00000029;
+    position: relative;
+}
+
+@media (max-width:990px) {
+    .universalHBO .universalHBO__cards .cardLogo:first-child {
+        padding: 20px 25px 20px 25px;
+    }
+}
+
+
+.container__btn-contact {
+    position: absolute;
+    bottom: -20px;
+}
+
+.universalHBO .universalHBO__cards .cardLogo .logo__canales {
+    height: 129px
+}
+
+.universalHBO .universalHBO__cards .cardLogo .contenedorLogos {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+.universalHBO .universalHBO__cards .cardLogo .contenedorLogos img {
+    height: 60px
+}
+
+.universalHBO .btn__pink {
+    font: normal normal bold 16px/16px Inter;
+    padding: 11px 0px;
+    width: 144px;
+    margin-top: 25px;
+    /* margin-top: 20px; */
+}
+
+@media (max-width: 995px) {
+    .universalHBO .btn__pink {
+        width: 150px
+    }
+}
+
+@media (max-width: 767px) {
+    .universalHBO .btn__orange {
+        width: 144px
+    }
+}
+
+.universalHBO .universalHBO__cards .cardLogo .canales {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.universalHBO .universalHBO__cards .cardLogo:first-child .canales{
+    gap: 20px;
+}
+
+.universalHBO .universalHBO__cards .cardLogo .canales img {
+    height: 40px
+}
+
+.universalHBO .universalHBO__cards .cardLogo .canales2 img {
+    height: 30px;
+    margin-right: 15px;
+    margin-bottom: 15px
+}
+
+@media (max-width: 1200px) {
+    .universalHBO .universalHBO__cards .cardLogo .logo__canales {
+        height: 100px
+    }
+}
+
+@media (max-width: 995px) {
+    .universalHBO .universalHBO__cards .cardLogo .logo__canales {
+        height: 70px
+    }
+}
+
+@media (max-width: 1200px) {
+    .universalHBO .universalHBO__cards .cardLogo {
+        /* padding: 68px 15px */
+    }
+}
+
+@media (max-width: 990px) {
+    .universalHBO .universalHBO__cards .cardLogo {
+        width: 100%;
+        /* margin-bottom: 20px; */
+        padding: 40px 20px;
+        min-height: 380px;
+        flex-direction: column
+    }
+
+    .universalHBO .universalHBO__cards .cardLogo .contenedorLogos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center
+    }
+
+    .universalHBO .universalHBO__cards .cardLogo img {
+        margin-bottom: 15px
+    }
+
+    .universalHBO .universalHBO__cards .cardLogo:first-child {
+        margin-right: 50px
+    }
+}
+
+@media (max-width: 990px) {
+    .universalHBO .universalHBO__cards .cardLogo:first-child {
+        /* margin-right: 0px */
+    }
+}
+
+@media (max-width: 767px) {
+    .universalHBO .universalHBO__cards {
+        flex-wrap: wrap
+    }
+
+    .universalHBO .universalHBO__cards .cardLogo:first-child {
+        margin-right: 0px
+    }
+
+    .universalHBO .universalHBO__cards .cardLogo{
+        min-height: 100px;
+    }
+
+    .universalHBO .universalHBO__cards .cardLogo:first-child .canales{
+        gap: 10px;
+    }
+
+    .universalHBO .universalHBO__cards .cardLogo:first-child {
+        margin-bottom:50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .universalHBO {
+        padding-top: 80px
+    }
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1537.098" height="697.215" viewBox="0 0 1537.098 697.215">
+  <defs>
+    <linearGradient id="linear-gradient" x1="1" y1="0.477" x2="0" y2="0.477" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0064b2"/>
+      <stop offset="1" stop-color="#003259"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_201" data-name="Rectángulo 201" width="205.335" height="134.29" fill="#004881"/>
+    </clipPath>
+  </defs>
+  <g id="BG-internet-sky-desktop" transform="translate(69.805 97.215)">
+    <path id="Trazado_615" data-name="Trazado 615" d="M0,0H1366V600H0Z" fill="url(#linear-gradient)"/>
+    <path id="Trazado_618" data-name="Trazado 618" d="M6.836,12.561C-14.663,39.9,29.544,71.783,37.8,106.392c3.088,12.948,10.631,69.558,55.946,41.943,21.3-12.984,40.183-37.554,47.871-61.329,12.829-39.681-14.582-51.965-33.926-55.6C95.879,29.2,85.8,22.71,75.815,16.451,64.088,9.1,26.159-12.012,6.836,12.561Z" transform="matrix(-0.966, -0.259, 0.259, -0.966, 73.633, 527.225)" fill="none" stroke="#044578" stroke-width="6" opacity="0.53"/>
+    <path id="Trazado_619" data-name="Trazado 619" d="M6.651,12.195C-14.166,38.666,28.638,69.537,36.63,103.048c2.99,12.537,10.294,67.35,54.17,40.612,20.627-12.572,38.907-36.363,46.352-59.383,12.422-38.422-14.119-50.316-32.85-53.832C92.868,28.3,83.113,22.021,73.441,15.961,62.085,8.847,25.36-11.6,6.651,12.195Z" transform="matrix(-0.966, -0.259, 0.259, -0.966, 884.577, 88.699)" fill="none" stroke="#044578" stroke-width="6" opacity="0.53"/>
+    <g id="Grupo_279" data-name="Grupo 279" transform="translate(1309.997 133.571) rotate(40)">
+      <g id="Grupo_278" data-name="Grupo 278" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Trazado_620" data-name="Trazado 620" d="M158.821,62.048c-24.877-19.68-16.075-46.725-37.76-60.093C116.416-.907,96.592-4.015,73.08,19.348,52.762,39.536,7.009,35.864.592,65.912c-1.544,7.227-.352,15.5,6.93,21.134,21.858,16.931,58.461-5.773,86.005,4.741,29.069,11.093,60.708,44.163,88.6,42.437,14.593-.9,23.921-10.944,23.163-22.45-1.481-22.495-33.115-39.163-46.469-49.727" transform="translate(0 0.001)" fill="#003965" opacity="0.09"/>
+      </g>
+    </g>
+  </g>
+</svg>

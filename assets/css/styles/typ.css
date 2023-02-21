@@ -1,0 +1,121 @@
+.typBody {
+  height: 90vh;
+  width: 100%;
+  background-image: url("../../img/banner/bannertyp.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.typBody .typ-msg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 70vh;
+  width: 80%;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: left;
+  margin-top: 5%;
+}
+
+.typBody .typ-msg .typ-msg-title {
+  width: 40%;
+  font: normal normal 600 32px/36px Inter;
+  letter-spacing: 0px;
+  color: #ff1983;
+  text-align: left;
+}
+
+.typBody .typ-msg .typ-msg-subtitle {
+  width: 40%;
+  font: normal normal 400 26px/36px Inter;
+  letter-spacing: 0px;
+  color: #304250;
+}
+
+.typBody .typ-msg .typ-msg-footer {
+  margin-top: 42px;
+  border-left: 2px solid var(--blanco);
+  padding-left: 15px;
+  width: 40%;
+}
+
+.typBody .typ-msg .typ-msg-footer p {
+  font: normal normal normal 16px/36px Inter;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+@media (max-width: 1100px) {
+  .typBody .typ-msg {
+    margin-top: 5%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 85%;
+  }
+}
+
+@media (max-width: 800px) {
+  .typBody .typ-msg {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 85%;
+  }
+}
+
+@media (max-width: 700px) {
+  .typBody .typ-msg {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 85%;
+  }
+  .typBody .typ-msg.typBody .typ-msg {
+    height: 100vh !important;
+  }
+  .typBody .typ-msg .typ-msg-title {
+    width: 60%;
+    font: normal normal 600 20px/26px Inter;
+  }
+  .typ-msg-subtitle {
+    width: 60% !important;
+    font: normal normal 400 20px/30px Inter !important;
+  }
+  .typBody .typ-msg .typ-msg-footer {
+    width: 65%;
+  }
+  .typBody .typ-msg .typ-msg-footer p {
+    font: normal normal normal 14px/20px Inter !important;
+  }
+}
+
+@media (max-width: 375px) {
+  .typBody .typ-msg {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 100%;
+    padding-right: 4%;
+  }
+}
+
+@media (max-width: 320px) {
+  .typBody .typ-msg {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    width: 100%;
+    padding-right: 5%;
+  }
+}

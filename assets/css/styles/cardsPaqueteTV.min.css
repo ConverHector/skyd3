@@ -1,0 +1,608 @@
+.cardsPaquetesTV {
+    margin-top: 50px;
+    text-align: center;
+
+
+}
+
+.cardsPaquetesTV .cardsPaquetesTV-title {
+    font: normal normal 600 32px/40px Inter;
+    color: var(--azul)
+}
+
+.cardsPaquetesTV .cardsPaquetesTV-subtitle {
+    margin-top: 8px;
+    font: normal normal 600 20px/26px Inter;
+    color: var(--negro)
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container {
+    position: relative;
+    margin-top: 45px
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardsPaquetesTV-logo img {
+    /* height: 30px */
+}
+
+
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV {
+    margin-top: 15px;
+    border-radius: 8px 8px 0px 0px;
+    padding: 0px 0px 24px 0px;
+    text-align: center;
+    min-height: 420px;
+    margin: auto;
+    background-color: var(--blanco);
+    box-shadow: -3px 3px 12px #00000029;
+    border: 1px solid var(--azul-baner);
+    overflow-y: hidden;
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container.cardsPromociones .cardPaqueteTV {
+    /* background-color: red!important; */
+    min-height: 250px;
+
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .logo__card {
+    height: 46px;
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-bottom: 15px
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .logos img {
+    height: 45px
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .logos img:last-child {
+    height: 24px
+}
+
+
+/* .cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .logos .logoSky {
+    height: 32px;
+    margin-right: 10px
+} */
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .logos p {
+    font: normal normal 900 16px/16px Inter;
+    margin-right: 10px;
+    color: #FF0B59;
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .descriptionPLus {
+    margin-top: 24px;
+    margin-left: -24px;
+    padding: 12px 15%;
+    background-color: #53A7DF;
+    width: calc(100% + 48px);
+    font: normal normal 400 16px/20px Inter;
+    color: var(--blanco)
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .cardPaqueteTV-title {
+    font: normal normal 300 16px/18px InterL;
+    letter-spacing: 0px;
+    color: #ffffff
+    /* margin-top: 15px; */
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .cardPaqueteTV-title-prepago {
+    font: normal normal 300 16px/18px InterL;
+    letter-spacing: 0px;
+    color: #464646;
+    margin-top: 10px;
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-subtitle {
+    font: normal normal normal 14px/18px Inter;
+    letter-spacing: 0px;
+    color: var(--blanco);
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-prices {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-prices .carPaqueteTV-priceOriginal {
+    font: normal normal 600 40px/40px InterB;
+    letter-spacing: 0px;
+    color: var(--blanco);
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .legendCanales {
+    width: 150px;
+    margin: auto;
+    /* margin-top: 16px; */
+    font: normal normal bold 16px/18px InterB;
+    letter-spacing: 0px;
+    color: var(--blue-strong);
+}
+
+/* .cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-prices .carPaqueteTV-priceOriginal sub {
+    vertical-align: 0px;
+    font: normal normal bold 28px/38px Inter
+} */
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-prices .carPaqueteTV-priceTachado {
+    margin-left: 8px;
+    font: normal normal 400 18px/38px Inter;
+    color: var(--gris);
+    text-decoration: line-through
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-priceLista {
+    font: normal normal 400 12px/14px Inter;
+    margin-top: 5px;
+    letter-spacing: 0px;
+    color: var(--blanco);
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-priceLista2 {
+    font: normal normal 400 14px/15px Inter;
+    letter-spacing: 0px;
+    color: #333AD2;
+    margin-top: 5px;
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .equipos {
+    font: normal normal 600 16px/8px Inter;
+    letter-spacing: 0px;
+    color: #FF0B59;
+    margin-top: 11px;
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-priceLista span {
+    text-decoration: line-through;
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-priceLista sub {
+    font-weight: 400
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-priceLista span {
+    text-decoration: line-through
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .preciodeListaTachado span {
+    font-weight: 300;
+    text-decoration: line-through
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .preciodeListaTachado sup {
+    text-decoration: none !important
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-canales {
+    margin-top: 8px
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-canales .title {
+    width: 60%;
+    margin: 0px auto;
+    font: normal normal 600 16px/18px InterB;
+    letter-spacing: 0px;
+    color: var(--blanco);
+    margin-top: 10px;
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-canales .title2 {
+    font: normal normal 600 16px/8px Inter;
+    letter-spacing: 0px;
+    color: #464646;
+}
+
+.whit__padding{
+    border-radius: 8px!important;
+    padding: 20px 0px!important;
+}
+
+@media (max-width:1200px) {
+    .cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-canales .title {
+        width: 90%;
+    }
+}
+
+@media (max-width:767px) {
+    .cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-canales .title {
+        width: 90%;
+    }
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-canales .carPaqueteTV-canalesDescripcion {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin-top: 10px
+}
+
+
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-canales .carPaqueteTV-canalesDescripcion ul {
+    list-style: none;
+    color: #4E5974;
+    font: normal normal normal 16px/23px Inter;
+    letter-spacing: 0px;
+    color: var(--blanco);
+    text-align: left;
+    padding-left: 10px
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-canales .carPaqueteTV-canalesDescripcion ul:first-child {
+    /* background-color: red; */
+    padding-left: 20px;
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-canales .carPaqueteTV-canalesDescripcion .numeros {
+    text-align: center;
+    /* padding-right: 10px; */
+    /* border-right: 1px solid #2B70F9; */
+    font: normal normal normal 16px/23px Sky Text;
+    letter-spacing: 0px;
+    /* color: var(--blanco); */
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-canales .carPaqueteTV-canalesDescripcion .numeros img {
+    margin-right: 15px;
+    height: 10px;
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-canales .carPaqueteTV-canalesDescripcion .numerowhite {
+    color: #4E5974;
+    text-align: center
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-canales .carPaqueteTV-canalesDescripcion .numerowhite2 {
+    color: #4E5974;
+    font-weight: 300
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .blueTogo__legend {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .blueTogo__legend p {
+    font: normal normal bold 14px/17px Inter;
+    letter-spacing: 0px;
+    color: #0071FF;
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .blueTogo__legend img {
+    margin-top: 10px;
+    height: 72px;
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-buttons {
+    margin-top: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-buttons .btn__blue {
+    width: 162px;
+    padding: 11px;
+    font: normal normal 400 16px/16px Inter;
+    margin-top: 8px;
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-buttons button {
+    width: 162px;
+    padding: 15px;
+    font: normal normal 600 16px/16px InterB;
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .carPaqueteTV-buttons button:last-child {
+    margin-top: 10px;
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container.cardsPromociones .cardPaqueteTV .carPaqueteTV-buttons button {
+    margin-top: 20px;
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .moreDetailsSection {
+    max-height: 50px;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+    overflow: hidden;
+    -webkit-transition: max-height 1s;
+    transition: max-height 1s
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .moreDetailsSection .textMoreDetails {
+    margin-top: 25px;
+    font: normal normal 500 16px/22px Inter;
+    color: var(--blanco);
+    cursor: pointer;
+    text-align: center
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .moreDetailsSection .textMoreDetails:focus-visible {
+    outline: none !important
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .moreDetailsSection ul {
+    margin-top: 24px;
+    color: var(--gris);
+    font: normal normal 500 12px/18px Inter
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .moreDetailsSection ul li {
+    margin-top: 10px
+}
+
+.cardsPaquetesTV .cardsPaquetesTV__container .textBlue {
+    color: #53A7DF
+}
+
+@media (max-width: 767px) {
+    .cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV {
+        width: 99%;
+        margin: auto
+    }
+
+    .cardsPaquetesTV .cardsPaquetesTV__container .cardPaqueteTV .descriptionPLus {
+        padding: 12px 5%
+    }
+}
+
+.cards__dos .glider-track .glider-slide {
+    max-width: 33% !important;
+    flex: 0 0 33%;
+}
+
+.cards__dos .glider-track {
+    justify-content: center;
+
+}
+
+@media (max-width:1200px) {
+    .cards__dos .glider-track .glider-slide {
+        max-width: 40% !important;
+        flex: 0 0 40%;
+    }
+}
+
+@media (max-width:990px) {
+    .cards__dos .glider-track .glider-slide {
+        max-width: 50% !important;
+        flex: 0 0 50%;
+    }
+
+    .cards__dos .glider-track {
+        justify-content: center;
+    }
+}
+
+
+.sub__title {
+    font: normal normal normal 10px/12px Inter;
+    vertical-align: 0px;
+}
+
+.extraInfo__promocion {
+    /* background-color: var(--blue-strong); */
+    box-shadow: -3px 3px 12px #00000029;
+    /* border: 1px solid #AAAAAA; */
+    padding: 25px 10%;
+    border-radius: 0px 0px 8px 8px;
+    text-align: center;
+    background-color: #000ff5;
+}
+
+.extraInfo__promocion p {
+    font: normal normal 500 16px/18px Inter;
+    color: var(--blanco);
+}
+
+.supp__title {
+    vertical-align: 500% !important;
+}
+
+sup {
+    vertical-align: 70%;
+    font: normal normal 400 8px/5px Inter;
+}
+
+
+.logo__plan-card {
+    padding: 10px 0px 10px 0px;
+}
+
+.bg__silver {
+    background: #9BA3EB;
+}
+
+.bg__gold {
+    background: #666FCD;
+}
+
+.bg__platinum {
+    background: #242F9B;
+}
+
+.cards__dos .glider-track .glider-slide {
+    max-width: 33% !important;
+    flex: 0 0 33%;
+}
+
+.cards__dos .glider-track {
+    justify-content: center;
+
+}
+
+@media (max-width:1200px) {
+    .cards__dos .glider-track .glider-slide {
+        max-width: 40% !important;
+        flex: 0 0 40%;
+    }
+}
+
+@media (max-width:990px) {
+    .cards__dos .glider-track .glider-slide {
+        max-width: 50% !important;
+        flex: 0 0 50%;
+    }
+
+    .cards__dos .glider-track {
+        justify-content: center;
+    }
+}
+
+
+.border__description {
+    padding: 8px 0px;
+    border-style: solid;
+    border-width: 1px;
+    border-left: none;
+    border-right: none;
+
+}
+
+.border__gold{
+    border-color: #9BA3EB;
+}
+
+.border__platinum{
+    border-color: #242F9B;
+}
+
+.color__white{
+    color: var(--blanco)!important;
+}
+
+.color__orange{
+    color: #ffffff!important;
+}
+
+.container__blue-card{
+    background-color: #464646;
+    border-radius: 0px 0px 32px 32px;
+    padding: 16px 0px;
+}
+
+.bluecard2{
+    border-radius: 0px 0px 0px 0px;
+
+}
+
+.cards__dos .glider-track .glider-slide {
+    max-width: 33% !important;
+    flex: 0 0 33%;
+}
+
+.cards__dos .glider-track {
+    justify-content: center;
+
+}
+
+.color__blue{
+    color: var(--azul-baner)!important;
+}
+
+.color__gray{
+    color: #4B4B4B!important;
+}
+
+@media (max-width:1200px) {
+    .cards__dos .glider-track .glider-slide {
+        max-width: 40% !important;
+        flex: 0 0 40%;
+    }
+}
+
+@media (max-width:990px) {
+    .cards__dos .glider-track .glider-slide {
+        max-width: 50% !important;
+        flex: 0 0 50%;
+    }
+
+    .cards__dos .glider-track {
+        justify-content: center;
+    }
+}
+
+.ofertaCard{
+    background-color: var(--blanco);
+    box-shadow: -3px 3px 12px #00000029;
+    border-left: 1px solid var(--azul-baner);
+    border-right: 1px solid var(--azul-baner);
+    /* padding: 0px 2% 9px 2%; */
+
+
+}
+
+.ofertaCard .line__sky{
+    height: 3px;
+    width: 100%;
+    background-image: linear-gradient(to right,rgb(255,158,0) 0%,rgb(255,0,0) 35%,rgb(181,0,125) 60%,rgb(33,66,156) 85%,rgb(0,113,255) 100%);;
+}
+
+.ofertaCard .info{
+    margin-top: 0px;
+    font: normal normal normal 14px/22px Inter;
+letter-spacing: 0px;
+color: #707070;
+}
+
+.ofertaCard .price{
+    display: inline-block;
+    font: normal normal 600 34px/40px InterB;
+    background-image: linear-gradient(to right,rgb(255,158,0) 0%,rgb(255,0,0) 35%,rgb(181,0,125) 60%,rgb(33,66,156) 85%,rgb(0,113,255) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0px;
+}
+
+.ofertaCard sup{
+    vertical-align: 22px!important;
+}
+
+.ofertaCard .price-description{
+    font: normal normal 400 20px/20px Inter;
+     background-image: linear-gradient(to right,rgb(255,158,0) 0%,rgb(255,0,0) 35%,rgb(181,0,125) 60%,rgb(33,66,156) 85%,rgb(0,113,255) 100%);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     margin-bottom: 0px;
+ }
+ 
+ .ofertaCard .info-description{
+     margin-top: 0px;
+     font: normal normal normal 14px/22px Inter;
+     letter-spacing: 0px;
+     color: #707070;
+ }
+
+

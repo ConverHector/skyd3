@@ -1,0 +1,10 @@
+@import url('theme/theme.css');
+@import url('styles/navbar.min.css');
+@import url('styles/header.css');
+@import url('styles/footer.css');
+@import url('styles/404.min.css');
+@import url('styles/section404.css');
+
+.navbar__Container{
+    background: #ffffff;
+}

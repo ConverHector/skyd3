@@ -1,0 +1,322 @@
+.paquetes {
+    margin-top: 102px;
+}
+
+.paquetes .title__paquetes {
+    font: normal normal 600 32px/40px Inter;
+    letter-spacing: 0.8px;
+    color: #2089FA;
+    text-align: center;
+
+}
+
+.skyHDInternet__container-cards {
+    margin-top: 50px;
+}
+
+.paquetes .paquetesInternet__subtitle {
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    font: normal normal 400 22px/26px Inter;
+    letter-spacing: 0px;
+    color: #616E78;
+}
+
+
+.paquetes .legalPromos {
+    margin-top: 40px;
+    font: normal normal 600 16px/24px Inter;
+    letter-spacing: 0px;
+    color: #B5B9BD;
+    text-align: center;
+}
+
+.color__silver{
+    color: #97A6C9;
+}
+
+.color__gold {
+    color: #FFBF30 !important;
+}
+
+
+.bg__gold {
+    background-color: #FFBF30 !important;
+}
+
+.bg__silver{
+    background-color: #97A6C9;
+}
+
+.border__gold {
+    border-color: #FFBF30 !important;
+}
+
+.icon__gold {
+    background-image: url('../../img/iconos/ico-check-yellow.svg');
+}
+.icon__silver {
+    background-image: url('../../img/iconos/ico-check-silver.svg');
+}
+
+.icon__platinum {
+    background-image: url('../../img/iconos/ico-check-platinum.svg');
+}
+
+.icon__black {
+    background-image: url('../../img/iconos/ico-check-black.svg');
+}
+
+.color__platinum {
+    color: #B5B9BD !important;
+}
+
+.bg__platinum {
+    background-color: #B5B9BD !important;
+}
+
+.border__platinum {
+    border-color: #B5B9BD !important;
+}
+
+.border__silver {
+    border-color: #97A6C9 !important;
+}
+
+.color__black {
+    color: #161615 !important;
+}
+
+.bg__black {
+    background-color: #161615 !important;
+}
+
+.border__black {
+    border-color: #161615;
+}
+
+.paquetes__card {
+    border-radius: 16px;
+    min-height: 578px;
+    box-shadow: 3px 3px 6px #616E7827;
+    border: 3px solid;
+    width: 100%;
+    text-align: center;
+    /* overflow-y: hidden; */
+}
+
+.paquetes__card .title {
+    border-radius: 12px 12px 0px 0px;
+    text-align: center;
+    padding: 20px 0px;
+    /* height: 50px; */
+}
+
+.paquetes__card .smallDescription {
+    text-align: center;
+    font: normal normal normal 14px/20px Inter;
+    letter-spacing: 0px;
+    color: #304250;
+    margin-top: 5px;
+}
+
+.paquetes__card .blutelecom__section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paquetes__card .iconMore{
+    height: 16px;
+    width: 16px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.paquetes__card .bluetelecomicon{
+    height: 47px;
+}
+
+.paquetes__card .infoBlutelecom{
+    margin-top: 12px;
+    font: normal normal 500 16px/20px Inter;
+    letter-spacing: 0px;
+}
+
+.paquetes__card .infoBlutelecom span{
+    font-weight: 900;
+}
+
+.paquetes__card .infoBlutelecom sup{
+    font: normal normal 900 10px/10px Inter;
+    vertical-align: super;
+}
+.skyCombos__container-cards{
+    margin-top: 50px;
+}
+
+.paquetes__card .title img {
+    height: 32px;
+}
+
+.paquetes__card .body {
+    padding: 0px 35px;
+    margin-top: 22px;
+    /* text-align: center; */
+}
+
+.paquetes__card .body .canales {
+    font: normal normal 600 20px/20px Inter;
+    letter-spacing: 0px;
+    color: #304250;
+}
+
+
+.paquetes__card .body .description__paquete {
+    margin-top: 23px;
+}
+
+.paquetes__card .body .description {
+    display: flex;
+    align-items: center;
+    font: normal normal 400 14px/20px Inter;
+    letter-spacing: 0px;
+    color: #304250;
+
+}
+
+.paquetes__card .body .description .text {
+    margin-right: 5px;
+}
+
+
+.paquetes__card .body .description .accepIcon {
+    display: inline-block;
+    width: 16px;
+    height: 11px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 10px;
+}
+
+.paquetes__card .body .separator {
+    width: 225px;
+    border-top: 2px solid #B5B9BD;
+    margin: auto;
+    margin-top: 26px;
+}
+
+.paquetes__card .body .priceTitle {
+    font: normal normal bold 14px/32px Inter;
+    letter-spacing: 0px;
+    color: #B5B9BD;
+    text-align: center;
+}
+
+.paquetes__card .body .priceTitle sup {
+    font-size: 6px;
+    vertical-align: super;
+}
+
+.paquetes__card .body .price {
+    font: normal normal 600 45px/32px Inter;
+    letter-spacing: 0px;
+    color: #304250;
+    text-align: center;
+    margin-top: 8px;
+
+}
+
+.paquetes__card .body .price sup {
+    font: normal normal 600 12px/12px Inter;
+    vertical-align: 25px;
+}
+
+.paquetes__card .body .duration {
+    font: normal normal bold 17px/24px Inter;
+    letter-spacing: 0px;
+    color: #304250;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.paquetes__card .body .priceList__title {
+    font: normal normal bold 14px/14px Inter;
+    letter-spacing: 0px;
+    color: #B5B9BD;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.paquetes__card .body .priceList__title sup {
+    font-size: 7px;
+}
+
+.paquetes__card .body .priceList {
+    font: normal normal bold 18px/32px Inter;
+    letter-spacing: 0px;
+    color: #B5B9BD;
+    text-align: center;
+    text-decoration: line-through;
+}
+
+.paquetes__card .body .butons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 22px;
+    margin-bottom: 22px;
+
+}
+
+.paquetes__card .body .butons .btn__prelandingPinkBorder {
+    width: 240px;
+    font: normal normal 600 18px/21px Inter;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.paquetes__card .body .butons .btn__pink {
+    border-radius: 24px;
+    width: 240px;
+    font: normal normal 600 18px/21px Inter;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+
+@media (max-width:995px) {
+    .paquetes__card {
+        width: 95%;
+        margin: auto;
+    }
+
+    .paquetes__card .body .separator {
+        width: 85%;
+    }
+}
+
+@media (max-width:767px) {
+    .paquetes__card {
+        width: 90%;
+        margin: auto;
+    }
+
+    .paquetes__card .body .separator {
+        width: 85%;
+    }
+}
+
+.nuevo__paqueteLegend{
+    text-align: center;
+    color: #FF1983;
+    font: normal normal 600 18px/23px Inter;
+    margin-bottom: 6px;
+}
+
+.spaceTop{
+    margin-top: 30px;
+}

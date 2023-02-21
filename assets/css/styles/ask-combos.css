@@ -1,0 +1,149 @@
+.askCombos {
+  margin-top: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 15px;
+  margin-bottom: 90px;
+}
+
+.askCombos .askCombos__img {
+  width: 526px;
+  border-radius: 16px;
+  background-image: url("../../img/banner/sky-internet-banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+}
+
+.askCombos .askCombos__img2 {
+  background-image: url('../../img/banner/sky-internet-banner2.png') !important;
+}
+
+.ask__skyHD {
+  background-image: url('../../img/bannersPrincipales/sky-promociones-05.png') !important;
+}
+
+.askCombos .askCombos__info {
+  width: calc(100% - 526px);
+  margin-left: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+
+
+.askCombos .askCombos__info .askCombos__info-title {
+  font: normal normal 400 20px/32px Inter;
+  color: var(--gris-titulos);
+  
+}
+
+.askCombos .askCombos__info .askCombos__info-subtitle {
+  font: normal normal 500 24px/32px Inter;
+  letter-spacing: 0px;
+  color: #304250;
+  margin-top: 16px;
+  
+}
+
+.askCombos .askCombos__info .askCombos__info-subtitle sup{
+  font: normal normal 600 12px/32px Inter;
+}
+
+.askCombos .askCombos__info .askCombos__info-subtitle span{
+
+  color: #2089FA;  
+}
+
+.askCombos .askCombos__info .hboCanalesContainer{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.askCombos .askCombos__info .hboCanalesContainer img{
+  height: 40px;
+  width: auto;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+@media (max-width:1200px) {
+  .askCombos .askCombos__img{
+    width: 40%;
+  }
+
+  .askCombos .askCombos__info{
+    margin-left: 20px;
+    width: 58%;
+  }
+}
+
+@media (max-width:990px) {
+  .askCombos .askCombos__info .hboCanalesContainer img{
+    height: 30px;
+  }
+}
+
+@media (max-width:767px) {
+  .askCombos .askCombos__info .hboCanalesContainer img{
+    height: 40px;
+  }
+}
+
+.askCombos .askCombos__info .askCombos__info-title span {
+  font: normal normal 600 24px/32px Inter;
+  color: var(--rosa);
+}
+
+.askCombos .askCombos__info .askCombos__info-title {
+  font: normal normal 400 20px/32px Inter;
+  color: var(--gris-titulos);
+  margin-top: 15px;
+}
+
+.askCombos .askCombos__info img {
+  margin-top: 16px;
+  width: 252px;
+}
+
+.askCombos .askCombos__info .btn-rosa-ask {
+  margin-top: 35px;
+  width: 200px;
+  padding: 10px;
+  font: normal normal 600 18px/21px Inter;
+}
+
+@media (max-width: 750px) {
+  .askCombos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-top: 80px;
+  }
+
+  .askCombos .askCombos__info {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 32px;
+  }
+
+  .askCombos .askCombos__img {
+    width: 100%;
+    border-radius: 16px;
+  }
+}

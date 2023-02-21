@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ES"><head>
+    {{> masters/headTop }}
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combos VeTV + Internet  | lo mejor de la TV + Internet para tu hogar </title>
+    <meta name="Description" content="Combos de TV + Internet | El mejor contenido de la televisión VeTV más el internet de Blue Telecomm Inalámbrico ">
+    <meta name="Keywords" content="VetV, Vetv HD, Sky Vetv, Combos de Televisión más internet, Combos TV Internet, Combos TV, Vetv más internet, VeTV con Internet, internet y vetv, internet blue telecomm, blue telecomm inalámbrico ">
+    <meta name="Robots" content="index,follow">
+    <link rel="icon" href="{{absoulteHrefBasePath}}favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{absoulteHrefBasePath}}assets/css/theme/glider.min.css">
+    <link rel="stylesheet" href="{{absoulteHrefBasePath}}assets/css/combosvetv.css">
+    {{> masters/headBottom }}
+</head>
+
+<body>
+    {{> masters/bodyTop }}
+
+    <header class="banner banner__carousel-container">
+        <div class="banner__carousel">
+            <div class="glide__track" data-glide-el="track">
+                <div class="glide__slides">
+
+                    <!-- <div class="banner__carousel-container banner__carousel1"></div> -->
+                    <div class="banner__carousel-container banner__carousel2"></div>
+                    <!-- <div class="banner__carousel-container banner__carousel3"></div> -->
+                </div>
+            </div>
+
+            <!-- <div class="glide__bullets" data-glide-el="controls[nav]">
+                <button class="glide__bullet" data-glide-dir="=0"></button>
+                <button class="glide__bullet" data-glide-dir="=1"></button>
+                <button class="glide__bullet" data-glide-dir="=2"></button>
+            </div> -->
+
+            <div class="navbar__Container">
+                <div class="container">
+                    <nav class="navbar">
+
+                        <div class="menu__hamburger" data-openmenu="false">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+
+                        <a href="{{absoulteHrefBasePath}}combos-tv-internet.html" class="logosky__container" onclick="return onLinkClick(this, event);" data-ic-link-disabled="" style="cursor: progress;">
+                            <img src="{{absoulteHrefBasePath}}assets/img/logos/logo-white-01.svg" alt="Logo sky" class="sky__logo">
+                        </a>
+                        <ul class="navbar__links">
+                            <li class="active">
+                                <a href="{{absoulteHrefBasePath}}combos-vetv-internet.html" onclick="return onLinkClick(this, event);" data-ic-link-disabled="" style="cursor: progress;">
+                                    Combo VeTV
+                                </a>
+                            </li>
+                            <li>
+                                <a href="{{absoulteHrefBasePath}}combos-sky-internet.html" onclick="return onLinkClick(this, event);" data-ic-link-disabled="" style="cursor: progress;">
+                                    Combo SKY
+                                </a>
+                            </li>
+
+                        </ul>
+                        <div class="contacTelephone">
+                            <a onclick="return gtag_report_conversion('tel:{{parameterOrDefault inboundPublicNumber 01 800 000}}')" href="tel:{{parameterOrDefault inboundPublicNumber '01 800 000'}}" target="_parent" class="phone__Contact-container">
+                                <p class="contrataYa">¡CONTRATA YA!</p>
+                                <div class="phone__contact-banner">
+                                    <img src="{{absoulteHrefBasePath}}assets/img/iconos/icn-call.svg" alt="icono Telefono" class="icon__telephoneNum">
+                                    <p>
+                                        {{parameterOrDefault inboundPublicNumber '01 800 000'}}
+
+                                    </p>
+                                    
+
+                                </div>
+
+                                <!-- </a> -->
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+                <div class="navbar__links-containerMobile fadeIn">
+                    <ul class="navbar__links-mobile fadeInLeft">
+
+                        <div class="header__menuMobile">
+                            <a href="{{absoulteHrefBasePath}}combos-tv-internet.html" onclick="return onLinkClick(this, event);" data-ic-link-disabled="" style="cursor: progress;">
+                                <img src="{{absoulteHrefBasePath}}assets/img/logos/logo-white-01.svg" alt="sky logo" class="mc__mobile">
+                            </a>
+                            <img src="{{absoulteHrefBasePath}}assets/img/iconos/close_icon.svg" alt="close menu icon" class="close__menu close-menuHamburger">
+                        </div>
+                        <li class="active">
+                            <a href="{{absoulteHrefBasePath}}combos-vetv-internet.html" onclick="return onLinkClick(this, event);" data-ic-link-disabled="" style="cursor: progress;">
+                                Combo VeTV
+                            </a>
+                        </li>
+                        <li>
+                            <a href="{{absoulteHrefBasePath}}combos-sky-internet.html" onclick="return onLinkClick(this, event);" data-ic-link-disabled="" style="cursor: progress;">
+                                Combo SKY
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="container">
+        <div class="form">
+            <div class="form__msg">
+                <p class="form__msg-title">
+                    ¡CONTRATA AHORA!
+                </p>
+                <p class="form__msg-subtitle">
+                    Déjanos tu número
+                    <br>y te llamamos en minutos
+                </p>
+            </div>
+
+            <form action="" method="post" onsubmit="return onFormSubmit(this, event);" class="dhx-form form__container">
+                <div class="form__inputContainer">
+                    <p class="form__container-inputLegend">Teléfono a 10 digitos</p>
+                    <input type="tel" data-ic-form-field="phone" id="phone-input" name="phone-input" class="gtm-form-popup-input-tel input__black" aria-describedby="phoneHelp" placeholder="Ingresa tu número" maxlength="10">
+                </div>
+                <div>
+                    <button type="submit" class="gtm-form-popup-submit 
+                    btn__pink" onclick="return onFormSubmit(this, event);" data-ic-button-disabled="" style="cursor: progress;">LLÁMENME</button>
+                </div>
+                <div class="container__terms">
+                    <input data-ic-form-field="terms" id="terms-check-06" name="terms-check-06" type="checkbox" class="form-check-input" checked="">
+                    <label class="form__container-checkLabel" for="terms-check-06">He
+                        leído y acepto las políticas de privacidad
+                        <!-- <a href="politicas-privacidad.html" target="_blank">términos y
+                            condiciones.</a></label> -->
+                </label></div>
+            </form>
+        </div>
+    </section>
+
+    <section class="container headings">
+        <h1>Hagamos Combo</h1>
+        <h2>Internet + VeTV desde <span>$425</span> al mes</h2>
+    </section>
+
+
+    <section class="telephone-banner">
+        <div class="telephone-icon">
+            <img src="{{absoulteHrefBasePath}}assets/img/iconos/telephone-pink.svg" alt="">
+        </div>
+        <div class="telephone-info">
+            <p class="telephone-info-contrat">¡CONTRATA YA!</p>
+            <a onclick="return gtag_report_conversion('tel:{{parameterOrDefault inboundPublicNumber 01 800 000}}')" href="tel:{{parameterOrDefault inboundPublicNumber '01 800 000'}}" class="ic-phone-link tp-phone-link">
+                {{parameterOrDefault inboundPublicNumber '01 800 000'}}
+            </a>
+        </div>
+    </section>
+
+    <section class="container banner__ligas">
+        <div id="banner__margin" class="banner__ligas__imagen">
+            <img src="{{absoulteHrefBasePath}}assets/img/banner/promo-combos-bti.webp" alt="Promociones Blue Telecomm Internet" class="d-none d-md-block">
+            <img src="{{absoulteHrefBasePath}}assets/img/banner/promo-combos-bti-mobile.webp" alt="Promociones Blue Telecomm Internet" class="d-md-none">
+            <a data-ic-popup="form-popup.html">
+                <button class="btn__rosa-redondo btn-rosa-ask">Lo quiero</button>
+            </a>
+        </div>
+    </section>
+
+    <section class="container VeTvInternet">
+        <!-- <p class="precioCombo">*Aplica para la contratación de VETV HD en 1 equipo con recarga de 30 días.</p> -->
+        <div class="VeTvInternet__container">
+            <p class="title__vetv">El combo que esperabas, el mejor <span>entretenimiento + internet</span> para tu hogar</p>
+            <p class="VeTvInternet__container-title">
+                Combos VETV + Internet
+            </p>
+            <p class="VeTvInternet__container-subtitle">
+                Elige el Combo de TV + Internet que más te convenga en prepago
+            </p>
+            <div class="carousel" style="position: relative;">
+                <button role="button" class="glider-prev disabled" id="prev-vtv">
+                    <i class="fa fa-chevron-left"></i>
+                </button>
+                <div class="VeTvInternet__container-cards">
+                </div>
+                <button role="button" class="glider-next" id="next-vtv">
+                    <i class="fa fa-chevron-right"></i>
+                </button>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="skyblue__blue">
+            <div class="info">
+                <img src="{{absoulteHrefBasePath}}assets/img/logos/sky-bti-white.svg" alt="" class="logoskybtc">
+                <p class="title">
+                    ¿Quieres disfrutar de <span>más contenidos, más canales </span> y muchas más diversión?
+                </p>
+
+                <p class="subtitle">
+                    Conoce nuestros Combos SKYHD + INTERNET desde <span>$545</span> al mes
+                </p>
+                
+                <a href="{{absoulteHrefBasePath}}combos-sky-internet.html" onclick="return onLinkClick(this, event);" data-ic-link-disabled="" style="cursor: progress;">
+                    <button class="btn__rosa-redondo btn__pink">Ver paquetes SKYHD</button>                
+                </a>
+
+            </div>
+            <div class="img__banner">
+                <img src="{{absoulteHrefBasePath}}assets/img/iconos/img-skycombos1/img-skycombos.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="container ">
+        <div class="askCombos">
+
+            <div class="askCombos__img askCombos__img2"></div>
+            <div class="askCombos__info">
+                <p class="askCombos__info-title"><span>Pregunta por nuestros combos</span> <br> de TV + Internet con SKY Básico</p>
+                <img src="{{absoulteHrefBasePath}}assets/img/logos/sky-basico.svg" alt="sky + btc logo">
+                <a data-ic-popup="form-popup.html">
+                    <button class="btn__rosa-redondo btn-rosa-ask">Lo quiero</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <p class="legales__footer">*Vigencia al 31 de mayo de 2022. | **Descuento en el costo de la habilitación del servicio de Internet Blue Telecomm Inalámbrico. Precio registrado ante el Instituto Federal de Telecomunicaciones, mismo que puede ser consultado en www.ift.org.mx</p>
+    </section>
+
+    <div class="chatInterno__container">
+        <div class="container">
+            <a href="https://skyvideo.custhelp.com/app/chat/leadconvertia/origen/112/pais/MX/p/247" target="_blank">
+                <div class="chatInterno">
+                    <div class="icon">
+                        <img src="{{absoulteHrefBasePath}}assets/img/iconos/icn-chatbot.svg" alt="icono chatbot">
+                    </div>
+                    <div class="chatInterno__info">
+                        <p class="title"><span>¡Contrataciones o </span><br>Servicio a Clientes!</p>
+                        <!-- <p class="subtitle">Contrataciones o Servicio a Clientes</p> -->
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <div class="form__footer footerScroll zoomInDown">
+        <div class="container">
+            <div class="form__footer-body">
+                <div class="contrata-ahora">
+                    <p class="title">¡Contrata Ahora!</p>
+                    <p class="subtitle">Déjanos tu número <br> y te llamamos en minutos</p>
+                </div>
+                <div class="formulario">
+                    <form action="" method="post" onsubmit="return onFormSubmit(this, event);" class="dhx-form form-box banner__form-form">
+                            <div class="form__body">
+                                <div class="form-input">
+                                    <p class="sky-text-legend formPopUp-legend">Teléfono a 10 digitos</p>
+                                    <div class="form-group mb-2">
+                                        <input type="tel" data-ic-form-field="phone" id="phone-input" name="phone-input" class="input form-control gtm-form-popup-input-tel" aria-describedby="phoneHelp" placeholder="Ingresa tu teléfono" maxlength="10">
+                                    </div>
+
+                                </div>
+                                <div class="form-button">
+                                    <div class="form-group text-center mb-0">
+                                        <button type="submit" class="w-100 mx-auto gtm-form-popup-submit btn__formulario-btcSky" onclick="return onFormSubmit(this, event);" data-ic-button-disabled="" style="cursor: progress;">Llámenme</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="form-group form-termsAvisos">
+                                <div class="form-check form__terms">
+                                    <input data-ic-form-field="terms" id="terms-check-06" name="terms-check-06" type="checkbox" class="form-check-input" checked="">
+                                    <label class="pl-1 form-check-label" for="terms-check-06">He leído y acepto el <br>
+                                            <a href="https://www.sky.com.mx/aviso-de-privacidad.html" target="_blank"> aviso de privacidad
+                                            </a>
+                                    </label>
+                                </div>
+                            </div>
+
+                        </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer__container">
+                <img src="{{absoulteHrefBasePath}}assets/img/logos/sky-bti-logo-01.svg" alt="logo skybtc">
+                <div>
+                    <a href="https://www.bluetelecomm.mx/aviso-privacidad.php" style="margin-right: 15px;" target="_blank">AVISO DE PRIVACIDAD</a>
+                    <a href="https://www.bluetelecomm.mx/terminos-condiciones.php" target="_blank">TÉRMINOS Y CONDICIONES</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{absoulteHrefBasePath}}assets/js/navbar.js"></script>
+    <script src="{{absoulteHrefBasePath}}assets/js/cards.js"></script>
+    <script src="{{absoulteHrefBasePath}}assets/js/glider.min.js"></script>
+    <script src="{{absoulteHrefBasePath}}assets/js/carousel-cards.js"></script>
+    <script src="{{absoulteHrefBasePath}}assets/js/animationScroll.js"></script>
+
+
+
+    {{> masters/bodyBottom }}
+</body></html>

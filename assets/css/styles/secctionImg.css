@@ -1,0 +1,177 @@
+.section__left{
+
+    margin-top: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.section__left .section__img{
+    width: 50%;
+}
+
+.section__left .section__img img{
+    width: 90%;
+}
+
+.section__left  .info{
+    width: 42%;
+}
+
+.section__left  .info .title{
+    font: normal normal 600 32px/28px Inter;
+    color: var(--gris-titulos);
+}
+
+.section__left  .info .title span{
+    color: var(--aqua);
+}
+
+.section__left  .info .logoVeTV {
+    margin-top: 18px;
+    height: 40px;
+}
+
+.section__left  .info .logoSKYHD {
+    margin-top: 18px;
+    height: 35px;
+    margin-bottom: 20px;
+}
+
+.section__left  .info .subtitle{
+    margin-top: 18px;
+    font: normal normal 400 22px/30px Inter;
+    color: var(--gris-titulos);
+}
+
+
+.section__left .info .btn__section{
+    margin-top: 35px;
+    font: normal normal 600 18px/21px Inter;
+    width: 240px;
+    padding: 10px ;
+}
+
+.section__right .info .title {
+    font: normal normal 600 32px/36px Inter;
+}
+
+.banner__ligas .title{
+    font: normal normal 600 30px/34px Inter;
+    color: var(--gris-titulos);
+    text-align: center;
+    margin-top: 100px;  
+}
+.banner__ligas .title span{
+    color: var(--aqua);
+}
+.banner__ligas .subtitle{
+    text-align: center;
+    color: var(--gris-titulos);
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    margin-top: 8px;
+}
+.banner__ligas button{
+    margin-top: 35px;
+    margin-bottom: 40px;
+    width: 200px;
+    padding: 10px;
+    font: normal normal 600 18px/21px Inter;
+}
+.banner__ligas__imagen{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.banner__ligas__imagen img{
+    border-radius: 16px;
+    width: 100%;
+}
+#banner__margin{
+    margin-top: 80px;
+}
+
+
+
+@media (max-width:990px) {
+    .section__left .section__img{
+        width: 50%;
+    }
+
+    .section__left  .info{
+        width: 50%;
+    }
+    .banner__ligas__imagen img{
+        width: 100%;
+    }
+}
+
+@media (max-width:720px) {
+
+    .section__left{
+        flex-direction: column;
+    }
+    .section__left .section__img{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .section__left .section__img img{
+        width: 320px
+    }
+
+    .section__left  .info{
+        margin-top: 25px;
+        text-align: left;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .section__left .info .title{
+        font: normal normal 600 24px/30px Inter;
+    }
+
+    .section__left .info .subtitle{
+        font: normal normal 400 18px/24px Inter;
+    }
+
+    .section__right .section__img{
+        order: -1;
+    }
+    
+    .banner__ligas__imagen img{
+        width: 100%;
+    }
+    .banner__ligas .title{
+        text-align: left;
+        font: normal normal 600 24px/28px Inter;
+    }
+    .banner__ligas .subtitle{
+        text-align: left;
+        font-size: 1rem;
+    }
+    .banner__ligas__imagen{
+        align-items: flex-start;
+    }
+}
+@media screen and (min-width:720px) and (max-width:1200px){
+    .banner__ligas__imagen img{
+        width: 100%;
+    }
+}
+
+@media (max-width:375px) {
+    .section__left .section__img img{
+        width: 300px;
+    }
+
+    .section__left .info .logoVeTV{
+        height: 30px;
+    }
+
+    .section__left .info .logoSKYHD{
+        height: 30px;
+    }
+}

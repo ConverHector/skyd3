@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es"><head>
+    {{> masters/headTop }}
+    <title>Sky | Error 404</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Robots" content="index,follow">
+    <link rel="icon" href="{{absoulteHrefBasePath}}favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="{{absoulteHrefBasePath}}assets/glider/glider.min.css">
+    <link rel="stylesheet" href="{{absoulteHrefBasePath}}assets/css/404.css">
+    {{> masters/headBottom }}
+</head>
+
+<body>
+    {{> masters/bodyTop }}
+
+    <div class="navbar__Container">
+        <div class="container">
+            <nav class="navbar">
+
+                <div class="menu__hamburger" data-openmenu="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
+                <div class="navbar__menuLogo">
+
+                    <a href="{{absoulteHrefBasePath}}skypaquetes.html" class="logosky__container" onclick="return onLinkClick(this, event);" data-ic-link-disabled="" style="cursor: progress;">
+                        <img src="{{absoulteHrefBasePath}}assets/img/logos/logo-sky-distribuidorV2.svg" alt="Logo sky" class="sky__logo">
+                    </a>
+
+
+                    <ul class="navbar__links">
+                        <li>
+                            <a href="{{absoulteHrefBasePath}}skypaquetes.html" onclick="return onLinkClick(this, event);" data-ic-link-disabled="" style="cursor: progress;">Sky Paquetes TV</a>
+                        </li>
+                        <li>
+                            <a href="{{absoulteHrefBasePath}}combos-sky.html" onclick="return onLinkClick(this, event);" data-ic-link-disabled="" style="cursor: progress;">Sky + Internet</a>
+                        </li>
+                        <li>
+                            <a href="{{absoulteHrefBasePath}}sky-prepago.html" onclick="return onLinkClick(this, event);" data-ic-link-disabled="" style="cursor: progress;">Sky Prepago</a>
+                        </li>
+                        <li class="active">
+                            <a href="{{absoulteHrefBasePath}}promociones-sky.html" onclick="return onLinkClick(this, event);" data-ic-link-disabled="" style="cursor: progress;">Promociones</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="contact__client">
+                    <p>Si eres cliente llama al</p>
+                    <a href="tel:555 169 0000">555 169 0000</a>
+                </div>
+
+
+
+                <div class="content__contacTelephone">
+                    <div class="contacTelephone">
+                        <a onclick="return gtag_report_conversion('tel:{{parameterOrDefault inboundPublicNumber 01 800 000}}')" href="tel:{{parameterOrDefault inboundPublicNumber '01 800 000'}}" target="_parent" class="phone__Contact-container">
+                            <p class="contrataYa">LLAMA GRATIS AL</p>
+                            <div class="phone__contact-banner">
+                                <img src="{{absoulteHrefBasePath}}assets/img/iconos/icn-call.svg" alt="icono Telefono" class="icon__telephoneNum">
+                                <p>
+                                    {{parameterOrDefault inboundPublicNumber '01 800 000'}}
+                                    <!-- 01 800 000 -->
+                                </p>
+
+
+                            </div>
+
+                            <!-- </a> -->
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="navbar__links-containerMobile fadeIn">
+            <ul class="navbar__links-mobile fadeInLeft">
+
+                <div class="header__menuMobile">
+                    <a href="{{absoulteHrefBasePath}}combos-tv-internet.html" onclick="return onLinkClick(this, event);" data-ic-link-disabled="" style="cursor: progress;">
+                        <img src="{{absoulteHrefBasePath}}assets/img/logoss/logo-sky-distribuidorV2.svg" alt="sky logo" class="mc__mobile">
+                    </a>
+                    <img src="{{absoulteHrefBasePath}}assets/img/iconos/close_icon.svg" alt="close menu icon" class="close__menu close-menuHamburger">
+                </div>
+                <li>
+                    <a href="{{absoulteHrefBasePath}}skypaquetes.html" onclick="return onLinkClick(this, event);" data-ic-link-disabled="" style="cursor: progress;">
+                        Paquetes TV
+                    </a>
+                </li>
+                <li>
+                    <a href="{{absoulteHrefBasePath}}combos-sky.html" onclick="return onLinkClick(this, event);" data-ic-link-disabled="" style="cursor: progress;">
+                        Sky + Internet
+                    </a>
+                </li>
+
+                <li>
+                    <a href="{{absoulteHrefBasePath}}sky-prepago.html" onclick="return onLinkClick(this, event);" data-ic-link-disabled="" style="cursor: progress;">
+                        Sky Prepago
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="{{absoulteHrefBasePath}}promociones-sky.html" onclick="return onLinkClick(this, event);" data-ic-link-disabled="" style="cursor: progress;">
+                        Promociones
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <p class="mobile__text-phone">SI ERES CLIENTE LLAMA AL <a href="tel:555 169 0000">555 169 0000</a></p>
+    </div>
+
+    <header class="container__404">
+        <div class="container page__noFound">
+
+            <div class="info">
+                <p class="title">¡Lo sentimos!</p>
+                <p class="description">La página que estás buscando no está disponible.</p>
+                <a href="{{absoulteHrefBasePath}}skypaquetes.html" onclick="return onLinkClick(this, event);" data-ic-link-disabled="" style="cursor: progress;">
+                    <button class="btn__pink">Volver al inicio</button>
+                </a>
+            </div>
+
+            <div class="img">
+                <img src="{{absoulteHrefBasePath}}assets/img/iconos/dog__404.png" alt="404 perro" class="desktop">
+                <!-- <img src="assets/img/secciones/sky-404-mobile.png" alt="typ img" class="mobiles"> -->
+            </div>
+
+        </div>
+    </header>
+    <footer>
+        <div class="container footer__container">
+            <div class="logo">
+                <img src="{{absoulteHrefBasePath}}assets/img/logos/logo-sky-distribuidorV2.svg" alt="Logo sky">
+                <p>©Copyright 2018</p>
+            </div>
+            <div class="links">
+                <a href="https://www.sky.com.mx/aviso-de-privacidad.html" target="_blank">Aviso de privacidad</a>
+                <a href="{{absoulteHrefBasePath}}assets/LEGALES-SKY.pdf" target="_blank" onclick="return onLinkClick(this, event);" data-ic-link-disabled="" style="cursor: progress;">Términos y Condiciones</a>
+            </div>
+        </div>
+        <div class="container footer__info">
+            <div class="footer-text">
+                “Sky” y las marcas relacionadas, nombres y logotipos, son propiedad de “Sky International AG” y otras
+                empresas del grupo.
+                <p class="footer__enlaces">
+                    <a target="_blank" href="http://www.televisanetworks.tv/tarifas.asp">Aviso para concesionarios de
+                        televisión y audio restringida</a> |
+                    <a target="_blank" href="https://www.sky.com.mx/Code/docs/cntr-sky-mx-se.pdf">Contrato de
+                        Suscripción
+                        Derechos reservados</a> |
+                    <a target="_blank" href="https://www.dof.gob.mx/nota_detalle.php?codigo=5641266&amp;fecha=25/01/2022#gsc.tab=0">
+                        Carta de Derechos Mínimos de los Usuarios de Telecomunicaciones</a>
+                    <a target="_blank" href="https://www.sky.com.mx/Code/docs/codigo-practicas-comerciales.pdf"> Código
+                        de
+                        Prácticas comerciales</a> |
+                    <a target="_blank" href="https://www.sky.com.mx/Code/docs/codigo-etica-sky.pdf"> Código de Ética</a>
+                </p>
+                <!-- <br> -->
+
+                <p class="footer__fin">
+                    © Corporación Novavisión S. de R.L. de C.V. 2022. Prohibida su reproducción total o parcial. Av.
+                    Insurgentes Sur 694, Col. Del Valle, Ciudad de México.
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="{{absoulteHrefBasePath}}assets/js/navbar.js"></script>
+
+
+    {{> masters/bodyBottom }}
+</body></html>

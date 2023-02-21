@@ -1,0 +1,244 @@
+.formPopUp-logo {
+    width: 130px;
+    height: 100px;
+}
+
+
+.container__formPopUp {
+    margin-left: 10%;
+    width: 90%;
+    min-height: 382px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contauner__formPopUp-title {
+    width: 80%;
+    font: normal normal 400 16px/20px Inter;
+    color: var(--blue-strong);
+    text-align: center;
+    margin: 0;
+}
+
+
+
+
+.contauner__formPopUp-subtitle {
+    width: 80%;
+    font: normal normal 400 16px/29px Inter;
+    color: var(--blue-strong);
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+
+.contauner__formPopUp-subtitle span {
+    font: normal normal 600 24px/29px Inter;
+    color: var(--blue-strong);
+}
+
+
+
+.contauner__formPopUp-text {
+    text-align: center;
+    font: normal normal 400 16px/20px Inter;
+}
+
+
+.form-box2 {
+    width: 80%;
+}
+
+
+
+
+.form-check-input {
+    font: normal normal normal 12px/20px Inter;
+
+}
+
+
+
+.banner__form-modal-title {
+    color: var(--blue-strong);
+    font: normal normal normal 18px/20px Inter;
+    margin-top: 20px;
+    width: 80%;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+
+
+.contrata__text {
+    margin-top: 24px;
+    font: normal normal normal 18px/20px Inter;
+    color: var(--blue-strong);
+}
+
+
+.contrata__text span {
+    font: normal normal bold 24px/28px Inter;
+}
+
+
+.banner__form-modal-subtitle {
+    width: 80%;
+    font: normal normal 600 18px/22px Inter;
+    text-align: center;
+    color: var(--rosa-btc);
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.sky-text-legend {
+    margin-top: 20px;
+    /* margin-bottom: 5px; */
+    /* margin-left: 8px; */
+    font: normal normal normal 16px/17px Inter;
+    color: var(--blue-strong);
+    text-align: center;
+}
+
+
+
+.form-control {
+    color: var(--header-btc);
+    font: normal normal 400 16px/16px Inter;
+}
+
+.form-box2 .gtm-form-popup-input-tel {
+    width: 100%;
+    padding: 11px;
+    margin-top: 29px;
+    /* background: #2C3344 0% 0% no-repeat padding-box; */
+    /* box-shadow: inset 0px 3px 2px #171A2465; */
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+border: 1px solid #AAAAAA;
+    /* border: 1px solid #00000066; */
+    border-radius: 32px;
+    text-align: center;
+}
+
+
+
+.form-box2 .gtm-form-popup-input-tel::placeholder{
+    font: normal normal 400 16px/20px Inter;
+    color: #242F9B;
+}
+
+
+.form__footer {
+    text-align: center;
+    font: normal normal 600 16px/24px Inter;
+    color: var(--btc-titles);
+    /* margin-bottom: 32px; */
+}
+
+.color-rosa {
+    color: var(--rosa-btc);
+}
+
+.banner__form-subtitle{
+    text-align: center;
+}
+
+.banner__form-modal {
+    background: var(--blanco);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 350px;
+    width: 404px;
+    border-radius: 8px;
+    /* box-shadow: 0px 3px 6px #4a5e6129; */
+    /* box-shadow: inset -3px 3px 6px #00000066; */
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+}
+
+/* @media () {
+    
+} */
+
+
+
+@media (max-width:600px) {
+    .contauner__formPopUp-title {
+        margin-top: 40px;
+        font: normal normal normal 18px/24px Inter;
+        text-align: center;
+    }
+
+    .contauner__formPopUp-subtitle {
+        font: normal normal 600 20px/24px Inter;
+        text-align: center;
+    }
+
+    .banner__form-modal-title {
+        width: 90%;
+    }
+}
+
+
+
+
+@media (max-width:500px) {
+    .banner__form-modal {
+        width: 85%;
+    }
+}
+
+
+
+.dejatuNumero {
+    font: normal normal normal 15px/16px Inter;
+    color: var(--blue-strong);
+    margin-top: 24px;
+}
+
+.text-center{
+    width: 100%;
+    text-align: center;
+}
+
+.form-box2 button{
+    width: 144px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 11px 0px;
+    font: normal normal 600 16px/16px Inter;
+}
+
+#terms-check-06{
+    accent-color: var(--rosa);
+}
+
+.form__terms{
+    /* margin-top: 16px; */
+    /* margin-bottom: 32px; */
+    text-align: center;
+}
+
+.textTerms{
+    font: normal normal 400 10px/24px Inter;
+    color: var(--blue-strong);
+}
+
+.textTerms a{
+    color:var(--blue-strong);
+}
+
+.modalContact .banner__form-modal img{
+    height: 56px;
+}
+
+.footer__contact-title span a img{
+    height: 20px;
+}

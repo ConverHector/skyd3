@@ -1,0 +1,547 @@
+.navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    z-index: 10;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--blanco);
+
+
+}
+
+.navbar .logosky__container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.navbar__menuLogo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .sky__logo {
+    /* width: 299px; */
+    height: 46px;
+    margin-right: 87px;
+    /* vertical-align: 50%; */
+}
+
+.navbar .menu__hamburger {
+    display: none;
+}
+
+.navbar .navbar__links {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* margin-left: 20%; */
+    /* margin-right: 4%; */
+}
+
+.navbar .navbar__links li {
+    margin-right: 50px;
+    position: relative;
+}
+
+.navbar .navbar__links li a {
+    font: normal normal 600 16px/24px Inter;
+    letter-spacing: 0px;
+    color: #707070;
+    /* text-decoration: underline; */
+}
+
+.navbar .navbar__links li:last-child {
+    margin-right: 0px;
+}
+
+.navbar .navbar__links li:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    display: inline-block;
+    width: 100%;
+    border-bottom: 2px solid var(--azul-baner);
+    opacity: 0;
+
+    transition: all 0.35s ease-in-out;
+    transform: scale(0);
+    /* transition: border 0.3s ease-in-out; */
+}
+
+.navbar .navbar__links .blue:after {
+    border-bottom: 2px solid var(--azul);
+    opacity: 1;
+}
+
+.navbar .navbar__links li.active:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.navbar .navbar__links li:hover:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.navbar .contacTelephone .btn__orangeMin {
+    width: 162px;
+    font: normal normal 600 16px/19px Inter;
+    color: var(--blanco);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    /* border-radius: 0px 0px 56px 56px; */
+}
+
+.navbar .contacTelephone .btn__orangeMin .icon__telephoneNum {
+    -webkit-transition: -webkit-animation ease;
+    transition: -webkit-animation ease;
+    transition: animation ease;
+    transition: animation ease, -webkit-animation ease;
+    width: 0;
+    height: 0;
+    -webkit-animation: showPhone 0.5s 2s forwards ease-out, movePhone 0.9s 2s infinite ease-out;
+    animation: showPhone 0.5s 2s forwards ease-out, movePhone 0.9s 2s infinite ease-out;
+}
+
+@-webkit-keyframes showPhone {
+    from {
+        width: 0%;
+        height: 0%;
+        opacity: 0;
+    }
+
+    to {
+        width: 12px;
+        height: 12px;
+        margin-right: 10px;
+        opacity: 1;
+    }
+}
+
+@keyframes showPhone {
+    from {
+        width: 0%;
+        height: 0%;
+        opacity: 0;
+    }
+
+    to {
+        width: 12px;
+        height: 12px;
+        margin-right: 10px;
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes movePhone {
+    0% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+
+    10% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+        transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+
+    20% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+        transform: rotate(25deg) scale(1) skew(1deg);
+    }
+
+    30% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+        transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+
+    40% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+        transform: rotate(25deg) scale(1) skew(1deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+}
+
+@keyframes movePhone {
+    0% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+
+    10% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+        transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+
+    20% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+        transform: rotate(25deg) scale(1) skew(1deg);
+    }
+
+    30% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+        transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+
+    40% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+        transform: rotate(25deg) scale(1) skew(1deg);
+    }
+
+    50% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+        transform: rotate(0) scale(1) skew(1deg);
+    }
+}
+
+.mobile__text-phone{
+    display: none;
+}
+
+.menu__hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+.menu__hamburger span {
+    display: block;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    background: var(--blanco);
+    border-radius: 3px;
+    -webkit-transform-origin: 4px 0px;
+    transform-origin: 4px 0px;
+    -webkit-transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transition: background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease;
+    transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1), opacity 0.55s ease, -webkit-transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+}
+
+.menu__hamburger span:first-child {
+    -webkit-transform-origin: 0% 0%;
+    transform-origin: 0% 0%;
+}
+
+.menu__hamburger span:nth-last-child(2) {
+    -webkit-transform-origin: 0% 100%;
+    transform-origin: 0% 100%;
+}
+
+.menu__hamburger .blue__hambuerguer {
+    background-color: var(--azul) !important;
+}
+
+.navbar__links-mobile {
+    display: none;
+}
+
+@media (max-width: 1200px) {
+    .navbar .navbar__links {
+        /* margin-left: 2%;
+        margin-right: 1%; */
+        min-width: 60%;
+    }
+
+    .navbar .navbar__links li {
+        margin-right: 20px;
+    }
+
+    .navbar .sky__logo {
+        margin-right: 30px;
+    }
+
+    .navbar__menuLogo {
+        width: 65%;
+    }
+
+    .contact__client{
+        min-width: 160px;
+        margin-right: 15px;
+
+    }
+
+
+}
+
+@media (max-width: 990px) {
+    .navbar .contacTelephone .btn__orangeMin {
+        display: none;
+    }
+
+    .navbar{
+        padding: 15px 0px;
+    }
+
+    .navbar .sky__logo {
+        /* width: 150px; */
+    }
+
+    .navbar .navbar__links {
+        margin-left: 0px;
+        margin-right: 0%;
+    }
+
+    .contacTelephone {
+        display: none;
+    }
+
+    .navbar__menuLogo {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .contact__client{
+        display: none;
+    }
+
+    .content__contacTelephone{
+        display: none;
+    }
+
+    .navbar .navbar__links{
+        width: 80%;
+        justify-content: space-around;
+    }
+
+    .navbar .navbar__links li{
+        /* margin-right: 40px; */
+    }
+}
+
+@media (max-width: 767px) {
+
+    .navbar .navbar__links {
+        display: none;
+    }
+
+    .navbar .menu__hamburger {
+        display: block;
+    }
+
+    .navbar {
+        -ms-flex-pack: distribute;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    .navbar__links-containerMobile {
+        display: none;
+        position: absolute;
+        top: 0;
+        height: 100vh;
+        width: 100vw;
+        background-color: rgba(0, 0, 0, 0.9);
+    }
+
+    .navbar__links-mobile {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        background: var(--gris-menu);
+
+        width: 80%;
+        height: 100vh;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: left;
+        padding: 20px 20px;
+        /* border-radius: 0px 26px 26px 0px; */
+    }
+
+    .navbar__links-mobile .header__menuMobile {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        /* padding-right: 8%; */
+        cursor: pointer;
+        margin-bottom: 99px;
+    }
+
+    .navbar__links-mobile .mc__mobile {
+        /* width: 200px; */
+        height: 32px;
+        margin-bottom: 40px;
+    }
+
+    .navbar__links-mobile .close__menu {
+        height: 32px;
+    }
+
+    .navbar__links-mobile li {
+        list-style: none;
+        letter-spacing: 0.38px;
+        margin-bottom: 30px;
+        position: relative;
+    }
+
+    .navbar__links-mobile li a {
+        font: normal normal 400 18px/20px Inter;
+        color: var(--new-blueL);
+        text-decoration: underline;
+    }
+
+    .navbar__links-mobile li.active:after {
+        content: "";
+        position: absolute;
+        top: -10px;
+        left: -24px;
+        width: calc(100% + 44px);
+        height: 40px;
+        background-color: var(--azul-baner);
+        z-index: -1;
+    }
+
+    .navbar__links-mobile li.active {
+        z-index: 5;
+    }
+
+    .navbar__links-mobile li.active a {
+        color: var(--blanco);
+    }
+
+    .navbar__menuLogo {
+        width: auto;
+    }
+
+    .navbar .sky__logo {
+        margin-right: 0px;
+    }
+
+    .mobile__text-phone{
+        display: block;
+        border-bottom: 1px solid #707070;
+        border-top: 1px solid #707070;
+        color: #707070;
+        font: normal normal 300 14px/17px Inter;
+        padding: 8px 0px;
+        text-align: center;
+    }
+
+    .mobile__text-phone a{
+        font: normal normal 600 14px/17px Inter;
+        color: #707070;
+    }
+
+}
+
+.phone__Contact-container {
+    display: flex;
+    align-items: center;
+}
+
+.phone__contact-banner {
+    display: flex;
+    align-items: center;
+
+}
+
+.phone__Contact-container .contrataYa {
+    font: normal normal 900 16px/28px Inter;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+.phone__contact-banner .icon__telephoneNum {
+    width: 0;
+    height: 0;
+    animation: showPhone 0.5s 2s forwards ease-out, movePhone 0.9s 2s infinite ease-out;
+}
+
+.phone__contact-banner {
+    font: normal normal 900 16px/28px Inter;
+    letter-spacing: 0px;
+    color: #6E6E6E;
+
+}
+
+.contact__client{
+    text-align: center;
+}
+
+.contact__client p {
+    font: normal normal 300 12px/15px Inter;
+    letter-spacing: 0px;
+    color: #707070;
+    margin-bottom: 2px;
+}
+
+.contact__client a {
+    font: normal normal 600 14px/17px Inter;
+    letter-spacing: 0px;
+    color: #707070;
+}
+
+.phone__Contact-container{
+    flex-direction: column;
+    justify-content: center;
+}
+
+.phone__contact-banner{
+    color: var(--blanco);
+}
+
+.phone__Contact-container .contrataYa{
+    margin: 0;
+}
+
+.content__contacTelephone{
+    position: relative;
+    min-height: 80px;
+    width: 200px;
+}
+
+.contacTelephone{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -21px;
+    background-color: #464646;
+    border-radius: 0px 0px 16px 16px;
+    padding: 25px 20px;
+    /* height: 100%; */
+    width: 100%;
+    transition: border-radius 0.2s ease-in-out ;
+}
+

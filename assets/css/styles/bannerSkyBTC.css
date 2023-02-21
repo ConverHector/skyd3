@@ -1,0 +1,287 @@
+.bannerSkyBTC {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-titles {
+  width: 80%;
+}
+
+.bannerSKYVeTV .bannerSkyBTC__info{
+  margin-left: 45px;
+  width: 48%;
+}
+
+
+.bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-titles h1 {
+  font: normal normal 600 32px/36px Inter;
+  color: var(--aqua);
+}
+
+.bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-titles h2 {
+  margin-top: 8px;
+  font: normal normal 400 26px/36px Inter;
+  color: var(--blanco);
+}
+
+.bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-titles h2 span {
+  font: normal normal 600 32px/20px Inter;
+  color: var(--aqua);
+}
+
+.bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-titles h2 span sup {
+  font: normal normal 600 16px/20px Inter;
+}
+
+.bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-form {
+  margin-top: 56px;
+}
+
+.bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-form p {
+  font: normal normal 400 18px/24px Inter;
+  color: var(--blanco);
+}
+
+.bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-form p span {
+  font: normal normal 600 18px/24px Inter;
+  color: var(--rosa-title);
+}
+
+.bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-form .form__body {
+  margin-top: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-form .form__body .form-input {
+  width: 65%;
+  border-radius: 2px;
+  background-color: var(--gris-fondo);
+  padding: 15px 0px;
+  padding-left: 24px;
+}
+
+.bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-form .form__body .form-input .sky-text-legend {
+  font: normal normal 400 12px/15px Inter;
+  color: var(--gris-titulos);
+}
+
+.bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-form .form__body .form-input #phone-input {
+  margin-top: 5px;
+  border: none;
+  background-color: transparent;
+  outline: none !important;
+  font: normal normal 400 20px/24px Inter;
+  color: var(--color-input);
+}
+
+@media (max-width: 1150px) {
+  .bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-form .form__body .form-input {
+    width: 50%;
+  }
+}
+
+.bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-form .form__body .form-button .btn__formulario-btcSky {
+  padding: 22px;
+  width: 178px;
+  margin-left: 10px;
+  color: var(--blanco);
+  font: normal normal 500 24px/29px Inter;
+  border: 2px solid var(--rosa-title);
+  border-radius: 4px;
+  background-color: var(--rosa-title);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-form .form__body .form-button .btn__formulario-btcSky:hover {
+  color: var(--rosa-title);
+  background-color: var(--blanco);
+}
+
+@media (max-width: 990px) {
+  .bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-form .form__body .form-button .btn__formulario-btcSky {
+    width: 100%;
+    font: normal normal 500 16px/20px Inter;
+  }
+}
+
+@media (max-width: 990px) {
+  .bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-form .form-input {
+    width: 60%;
+    padding: 11px 0px !important;
+    padding-left: 10px !important;
+  }
+  .bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-form #phone-input {
+    font: normal normal 400 16px/20px Inter !important;
+  }
+}
+
+.bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-form .form-termsAvisos {
+  margin-top: 16px;
+}
+
+.bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-form .form-termsAvisos .form-check-input {
+  accent-color: var(--azul-header);
+}
+
+.bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-form .form-termsAvisos .form-check-label {
+  font: normal normal 400 14px/17px Inter;
+  color: var(--blanco);
+}
+
+.bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-form .form-termsAvisos .form-check-label a {
+  color: var(--azul-header);
+}
+
+@media (max-width: 1000px) {
+  .bannerSkyBTC .bannerSkyBTC__info {
+    width: 50%;
+  }
+  .bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-titles {
+    width: 100%;
+  }
+  .bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-titles h1 {
+    font: normal normal 600 28px/30px Inter;
+  }
+  .bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-titles h2 {
+    font: normal normal normal 20px/32px Inter;
+  }
+  .bannerSkyBTC .bannerSkyBTC__info .bannerSkyBTC__info-titles h2 span {
+    font: normal normal bold 28px/32px Inter;
+  }
+}
+
+
+
+.bannerSkyBTC .bannerSkyBTC__logo .bannerSkyBTC__logo-img {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* height: 350px; */
+}
+
+.bannerSKYVeTV.bannerSkyBTC__logo-img .combos-sky-btc {
+  height: 440px;
+}
+
+.bannerSkyBTC .bannerSkyBTC__logo .bannerSkyBTC__logo-img .burbujaIcon {
+  position: absolute;
+  height: 100px;
+}
+
+.bannerSkyBTC .bannerSkyBTC__logo .bannerSkyBTC__logo-img .logoSky-burbuja {
+  top: 25%;
+  left: -10%;
+}
+
+.bannerSkyBTC .bannerSkyBTC__logo .bannerSkyBTC__logo-img .logoBTC-burbuja {
+  top: 5%;
+  right: -12%;
+}
+
+.bannerSkyBTC .bannerSkyBTC__logo .bannerSkyBTC__logo-img .logoVeTv-burbuja {
+  bottom: 5%;
+  right: -12%;
+}
+
+@media (max-width: 1200px) {
+  .bannerSkyBTC .bannerSkyBTC__logo .bannerSkyBTC__logo-img .combos-sky-btc {
+    height: 350px;
+  }
+  .bannerSkyBTC .bannerSkyBTC__logo .bannerSkyBTC__logo-img .burbujaIcon {
+    height: 80px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .bannerSkyBTC .bannerSkyBTC__logo .bannerSkyBTC__logo-img .combos-sky-btc {
+    height: 300px;
+  }
+  .bannerSkyBTC .bannerSkyBTC__logo .bannerSkyBTC__logo-img .burbujaIcon {
+    height: 80px;
+  }
+}
+
+.btn__header-contratar {
+  display: none;
+}
+
+@media (max-width: 760px) {
+  .bannerSkyBTC {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .bannerSkyBTC .bannerSkyBTC__info {
+    width: 100%;
+  }
+  .bannerSkyBTC .bannerSkyBTC__logo {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .bannerSkyBTC .bannerSkyBTC__logo .bannerSkyBTC__logo-img .burbujaIcon {
+    height: 70px;
+  }
+  .bannerSkyBTC .bannerSkyBTC__logo .bannerSkyBTC__logo-img .logoBTC-burbuja {
+    right: -10%;
+    top: -4%;
+  }
+  .bannerSkyBTC .bannerSkyBTC__logo .bannerSkyBTC__logo-img .logoVeTv-burbuja {
+    right: -10px;
+    bottom: 0%;
+  }
+  .bannerSkyBTC .bannerSkyBTC__logo .bannerSkyBTC__logo-img .combos-sky-btc {
+    height: 285px;
+  }
+  .bannerSkyBTC .bannerSkyBTC__logo .bannerSkyBTC__logo-img {
+    margin-bottom: 50px;
+  }
+  .bannerSkyBTC__info-form {
+    display: none;
+  }
+  .btn__header-contratar {
+    display: block;
+    font: normal normal 600 18px/21px Inter;
+    width: 188px;
+    padding: 10px;
+    margin-top: 34px;
+  }
+}
+
+@media (max-width: 375px) {
+  .bannerSkyBTC .bannerSkyBTC__logo .bannerSkyBTC__logo-img .combos-sky-btc {
+    height: 260px;
+  }
+}
+
+@media (max-width: 320px) {
+  .bannerSkyBTC .bannerSkyBTC__logo .bannerSkyBTC__logo-img .combos-sky-btc {
+    height: 230px;
+  }
+}
+
+.color__gris{
+  color: var(--gris-titulos)!important;
+}

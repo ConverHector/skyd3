@@ -1,0 +1,49 @@
+.links__active .image__logo{
+    width: 100%;
+    background-position: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../../img/banner/sky-activa-qatar.jpg');
+    height: 155px;
+    border-radius: 11px;
+    margin-top: 80px;
+}
+
+.links__active .buttons__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 30px;
+}
+
+.links__active .buttons__container button{
+    width: 144px;
+    padding: 11px 0px;
+    font: normal normal 600 16px/16px Inter;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.links__active .buttons__container button img{
+    height: 16px;
+    margin-right: 5px;
+}
+
+@media (max-width:768px) {
+    .links__active .buttons__container{
+        gap: 5%;
+    }
+
+    .links__active .buttons__container button{
+        margin-bottom: 20px;
+    }
+
+
+    .links__active .image__logo{
+        background-image: url('../../img/banner/Sky-Activa-Qatar-mobile.jpg');
+        height: 180px;
+        margin-top: 50px;
+    }
+}

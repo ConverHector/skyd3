@@ -1,0 +1,238 @@
+.form__footer {
+    width: 100%;
+    position: -webkit-sticky;
+    position: sticky;
+    margin-top: 80px;
+}
+
+.form__footer .form__footer-body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 24px 24px 0px 0px;
+    padding: 10px 4% 10px 4%;
+    justify-content: center;
+    background-color: var(--azul-baner);
+}
+
+
+.form__footer .form__footer-body .contrata-ahora {
+    text-align: center;
+}
+
+
+.form__footer .form__footer-body .contrata-ahora .title {
+    font: normal normal 600 16px/22px Inter;
+    color: var(--blanco);
+}
+
+.form__footer .form__footer-body .contrata-ahora a {
+    font: normal normal 500 28px/39px Inter;
+    color: var(--blanco);
+}
+
+.form__footer .form__footer-body .formulario {
+    margin-left: 10%;
+    width: 60%;
+}
+
+.form__footer .form__footer-body .formulario form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.form__footer .form__footer-body .formulario form .form__body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 700px; */
+    /* width: 100%; */
+}
+
+.form__footer .form__footer-body .formulario form .form__body .form-input {
+    /* border-radius: 4px;
+  background-color: var(--gris-fondo);
+  padding: 7px 5%;
+  width: 249px; */
+    /* height: 48px; */
+}
+
+.form__footer .form__footer-body .formulario form .form__body .form-input .formPopUp-legend {
+    font: normal normal 400 10px/12px Inter;
+    color: var(--gris-titulos);
+}
+
+.form__footer .form__footer-body .formulario form .form__body .form-input input {
+
+    background-color: var(--blanco);
+    border: 1px solid #AAAAAA;
+    padding: 12.5px 0px;
+    border-radius: 8px;
+
+    outline: none !important;
+    text-align: center;
+    width: 249px;
+}
+
+.form__footer .form__footer-body .formulario form .form__body .form-input input::placeholder {
+    font: normal normal bold 15px/22px Inter;
+}
+
+.form__footer .form__footer-body .formulario form .form__body .btn__pink {
+    margin-left: 25px;
+    /* height: 48px; */
+    width: 180px;
+
+    /* padding: 12px 40px; */
+    border-radius: 4px;
+    color: var(--blanco);
+    font: normal normal bold 18px/20px Inter;
+}
+
+.form__footer .form__footer-body .formulario form .form-termsAvisos {
+    width: auto;
+    margin-top: 10px;
+}
+
+.form__footer .form__footer-body .formulario form .form-termsAvisos .form-check-input {
+    accent-color: var(--azul-header);
+}
+
+.form__footer .form__footer-body .formulario form .form-check-label {
+    width: 25%;
+    font: normal normal 400 10px/12px Inter;
+    color: var(--blanco);
+}
+
+.form__footer .form__footer-body .formulario form .form-check-label a {
+    color: var(--blanco);
+}
+
+@media (max-width: 1100px) {
+    .form__footer .form__footer-body {
+        /* -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; */
+    }
+
+    .form__footer .form__footer-body .contrata-ahora {
+        width: 150px;
+        text-align: center;
+    }
+
+    .form__footer .form__footer-body .formulario {
+        /* width: 60%; */
+        /* margin-left: 0; */
+        /* margin-top: 15px;¬ */
+        margin-left: 5%;
+    }
+
+    .form__footer .form__footer-body .formulario form .form-termsAvisos {
+        /* width: 26%; */
+    }
+
+    .form__footer .form__footer-body .contrata-ahora .subtitle br {
+        display: none;
+    }
+}
+
+@media (max-width:990px) {
+    .form__footer .form__footer-body {
+        justify-content: space-between;
+    }
+
+    .form__footer .form__footer-body .formulario {
+        width: 65%;
+    }
+
+    .form__footer .form__footer-body .formulario form .form__body .form-input input {
+        width: 200px;
+    }
+
+}
+
+.form__footer .form__footer-body .opcion__b{
+    width: 100%;
+    display: block;
+    font: normal normal 600 16px/22px Inter;
+    color: var(--blanco);
+}
+
+@media (max-width: 767px) {
+    /* .form__footer {
+    display: none;
+  } */
+
+    .form__footer .form__footer-body {
+        flex-direction: column;
+    }
+
+    .form__footer .form__footer-body .formulario {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    /* .form__footer .form__footer-body .formulario form .form__body .form-input {
+        width: 100%;
+    } */
+
+    .form__footer .form__footer-body .formulario form .form__body .form-input input {
+        width: 250px;
+        padding: 10px 0px;
+    }
+
+    .form__footer .form__footer-body .formulario form .form__body{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .form__footer .form__footer-body .formulario form .form__body .btn__pink{
+        width: 250px;
+        margin: 0;
+        margin-top: 8px;
+        height: auto;
+        padding: 8px 0px
+    }
+
+    .form__footer .form__footer-body .contrata-ahora a{
+        font: normal normal 500 18px/25px Inter;
+    }
+
+    .form__footer .form__footer-body .opcion__b{
+        text-align: center;
+        margin-bottom: 5px;
+        font: normal normal 600 12px/12px Inter;
+    }
+
+    .form__footer .form__footer-body .contrata-ahora .title{
+        font: normal normal 600 14px/16px Inter
+    }
+    
+    .form__footer .form__footer-body {
+        padding: 10px 0px;
+    }
+
+    /* .form__footer .form__footer-body .formulario form .form__body {
+    width: 50%;
+  }
+  .form__footer .form__footer-body .formulario form .form__body .btn__pink{
+    width: 100%;
+  } */
+}
+
+
+@media (min-width:1200px) {
+    .form__footer .form__footer-body {
+        width: 80%;
+        margin: 0px auto;
+    }
+}

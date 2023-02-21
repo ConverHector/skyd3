@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Muchas Gracias - SKY</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="Robots" content="index,follow">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="assets/glider/glider.min.css">
+    <link rel="stylesheet" href="assets/css/typ.css">
+</head>
+
+<body>
+
+    <div class="navbar__Container">
+        <div class="container">
+            <nav class="navbar">
+
+
+                <div class="navbar__menuLogo">
+
+                    <a href="skypaquetes.html" class="logosky__container">
+                        <img src="assets/img/logos/logo-sky-distribuidorV2.svg" alt="Logo sky" class="sky__logo">
+                    </a>
+
+
+                    
+                </div>
+
+                
+
+
+
+                <div class="content__contacTelephone">
+                    <div class="contacTelephone">
+                        <a onclick="return gtag_report_conversion('tel:{{parameterOrDefault inboundPublicNumber 01 800 000}}')"
+                            href="tel:{{parameterOrDefault inboundPublicNumber '01 800 000'}}" target="_parent"
+                            class="phone__Contact-container">
+                            <p class="contrataYa">LLAMA GRATIS AL</p>
+                            <div class="phone__contact-banner">
+                                <img src="assets/img/iconos/icn-call.svg" alt="icono Telefono"
+                                    class="icon__telephoneNum">
+                                <p>
+                                    {{parameterOrDefault inboundPublicNumber '01 800 000'}}
+                                    <!-- 01 800 000 -->
+                                </p>
+
+
+                            </div>
+
+                            <!-- </a> -->
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="navbar__links-containerMobile fadeIn">
+        </div>
+        <!-- <p class="mobile__text-phone">SI ERES CLIENTE LLAMA AL <a href="tel:555 169 0000">555 169 0000</a></p> -->
+    </div>
+
+    <header class="typ ">
+        <div class="container">
+            <div class="info">
+                <p class="title">MUCHAS GRACIAS POR CONTACTARNOS</p>
+                <p class="description">En unos momentos uno de nuestros ejecutivos se pondrá en contacto contigo desde el número telefónico <br><span>55 4742 9109</span></p>
+                <p class="noOlvides">¡ No olvides preguntar por cualquiera de nuestras promociones !</p>
+            </div>
+            <div class="img">
+                <!-- <img src="assets/img/secciones/sky-typ-desktop.png" alt="typ img"> -->
+            </div>
+        </div>
+    </header>
+    <footer>
+        <div class="container footer__container">
+            <div class="logo">
+                <img src="assets/img/logos/logo-sky-distribuidorV2.svg" alt="Logo sky">
+                <p>©Copyright 2018</p>
+            </div>
+            <div class="links">
+                <a href="https://www.sky.com.mx/aviso-de-privacidad.html" target="_blank">Aviso de privacidad</a>
+                <a href="assets/LEGALES-SKY.pdf" target="_blank">Términos y Condiciones</a>
+            </div>
+        </div>
+        <div class="container footer__info">
+            <div class="footer-text">
+                “Sky” y las marcas relacionadas, nombres y logotipos, son propiedad de “Sky International AG” y otras
+                empresas del grupo.
+                <p class="footer__enlaces">
+                    <a target="_blank" href="http://www.televisanetworks.tv/tarifas.asp">Aviso para concesionarios de
+                        televisión y audio restringida</a> |
+                    <a target="_blank" href="https://www.sky.com.mx/Code/docs/cntr-sky-mx-se.pdf">Contrato de
+                        Suscripción
+                        Derechos reservados</a> |
+                    <a target="_blank"
+                        href="https://www.dof.gob.mx/nota_detalle.php?codigo=5641266&fecha=25/01/2022#gsc.tab=0">
+                        Carta de Derechos Mínimos de los Usuarios de Telecomunicaciones</a>
+                    <a target="_blank" href="https://www.sky.com.mx/Code/docs/codigo-practicas-comerciales.pdf"> Código
+                        de
+                        Prácticas comerciales</a> |
+                    <a target="_blank" href="https://www.sky.com.mx/Code/docs/codigo-etica-sky.pdf"> Código de Ética</a>
+                </p>
+                <!-- <br> -->
+
+                <p class="footer__fin">
+                    © Corporación Novavisión S. de R.L. de C.V. 2022. Prohibida su reproducción total o parcial. Av.
+                    Insurgentes Sur 694, Col. Del Valle, Ciudad de México.
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+.futbolNacionalInter {
+    border-radius: 8px;
+    padding: 54px 5%;
+    background-image: url("../../img/secciones/banner-futbol.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 320px;
+    color: var(--blanco);
+    margin-top: 20px
+}
+
+.futbolNacionalInter .title {
+    width: 80%;
+    font: normal normal 400 40px/44px Inter
+}
+
+.futbolNacionalInter .info {
+    margin-top: 10px;
+    width:400px;
+    font: normal normal 400 22px/34px Inter
+}
+
+.futbolNacionalInter .btn__pink {
+    margin-top: 32px;
+    width: 210px;
+    padding: 11px;
+    font: normal normal 600 16px/20px Inter
+}
+
+.futbolNacionalInter sup {
+    vertical-align: 250%
+}
+
+@media (max-width: 990px) {
+    .futbolNacionalInter {
+        padding: 30px;
+        background-position: 75%;
+        background-position-y: 80%
+    }
+
+    .futbolNacionalInter .title {
+        width: 80%;
+        font: normal normal bold 30px/36px Inter
+    }
+
+    .futbolNacionalInter .info {
+        margin-top: 10px;
+        width: 53%;
+        font: normal normal 400 22px/32px Inter
+    }
+}
+
+@media (max-width: 750px) {
+    .futbolNacionalInter {
+        min-height: 500px;
+        background-image: url("../../img/secciones/banner-futbol-mobile.png");
+        background-position: 100% 35%;
+        text-align: center
+    }
+
+    .futbolNacionalInter .title {
+        width: 100%;
+        text-align: center;
+        font: normal normal bold 24px/24px Inter
+    }
+
+    .futbolNacionalInter .info {
+        width: 100%;
+        font: normal normal normal 20px/24px Inter
+    }
+}
+
+@media (max-width: 375px) {
+    .futbolNacionalInter {
+        min-height: 550px;
+        background-position: 100% 15%
+    }
+}
+
+@media (max-width: 320px) {
+    .futbolNacionalInter {
+        min-height: 600px;
+        background-position: 100% 15%
+    }
+}
